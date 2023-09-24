@@ -29,13 +29,13 @@ export default function Header() {
     },
     {
       id: 2,
-      title: "About",
-      link: "/",
+      title: "Blog",
+      link: "/blog",
     },
     {
       id: 3,
-      title: "Contribute",
-      link: "/",
+      title: "E-Learning",
+      link: "/elearning",
     },
     {
       id: 4,
