@@ -3,23 +3,23 @@ import React from "react";
 
 const EnrollCourse = () => {
   return (
-    <div className="xl:max-w-inner md:max-w-5xl mx-auto mt-12 mb-16 px-2 relative">
+    <div className="xl:max-w-inner md:max-w-5xl mx-auto mt-12 mb-16 px-2 relative overflow-hidden">
       {/* --------vector */}
-      <div className="absolute left-48 top-80 h-full w-full -z-10">
+      <div className="absolute left-48 top-80 h-full w-full -z-10 hidden md:block">
         <img
           src="/enroll/vector.png"
           alt=""
           className="w-[550px] h-[1100px] "
         />
       </div>
-      <div className="absolute left-60 top-[450px] -z-10">
+      <div className="absolute left-60 top-[450px] -z-10 hidden md:block">
         <img
           src="/enroll/dot1.png"
           alt=""
           //   className="w-[550px] h-[1100px] "
         />
       </div>
-      <div className="absolute left-[275px] top-[1320px] -z-10">
+      <div className="absolute left-[275px] top-[1320px] -z-10 hidden md:block">
         <img
           src="/enroll/dot2.png"
           alt=""
