@@ -1,7 +1,23 @@
-import { Stepper, Step, Button, Option, Select, Tab, TabPanel, Tabs, TabsBody, TabsHeader, Typography } from '@material-tailwind/react';
-import React from 'react';
-import ExploreFreebieCard from './ExploreFreebieCard';
-import { BuildingLibraryIcon, CogIcon, UserIcon } from '@heroicons/react/24/outline';
+import {
+  Stepper,
+  Step,
+  Button,
+  Option,
+  Select,
+  Tab,
+  TabPanel,
+  Tabs,
+  TabsBody,
+  TabsHeader,
+  Typography,
+} from "@material-tailwind/react";
+import React from "react";
+import ExploreFreebieCard from "./ExploreFreebieCard";
+import {
+  BuildingLibraryIcon,
+  CogIcon,
+  UserIcon,
+} from "@heroicons/react/24/outline";
 
 const Explore = () => {
   const [activeStep, setActiveStep] = React.useState(0);
@@ -60,7 +76,6 @@ const Explore = () => {
       price: 10, // Example price as a number
       hour: "string",
     },
-
   ];
   const data = [
     {
@@ -111,13 +126,20 @@ const Explore = () => {
             }}
           >
             <div className="w-full border-b-2 border-gray-400">
-              <div className="mx-auto justify-between text-center">
-                <Typography variant="h1">Explore Search according your need</Typography>
-                <Typography className="text-sm">Pxplore Search according your need according your need</Typography>
-                <Typography className="text-sm"> according your need</Typography>
+              <div className="mx-auto justify-between text-center mt-6 md:mt-10">
+                <Typography variant="h1">
+                  Explore Search according your need
+                </Typography>
+                <Typography className="text-sm">
+                  Pxplore Search according your need according your need
+                </Typography>
+                <Typography className="text-sm">
+                  {" "}
+                  according your need
+                </Typography>
               </div>
 
-              <div className="max-w-inner mx-auto flex justify-between w-full pb-8 pt-[30px] md:pt-[58px]">
+              <div className="max-w-inner mx-auto flex justify-between w-full pb-8 pt-[30px] md:pt-[58px] px-4">
                 <Stepper
                   activeStep={activeStep}
                   isLastStep={(value) => setIsLastStep(value)}
@@ -126,15 +148,13 @@ const Explore = () => {
                   <Step onClick={() => setActiveStep(0)}>
                     <UserIcon className="h-5 w-5" />
                     <div className="absolute -bottom-[4.5rem] w-max text-center">
-                      <Typography
+                      {/* <Typography
                         variant="h6"
                         color={activeStep === 0 ? "red" : "gray"}
-                      >
-
-                      </Typography>
+                      ></Typography> */}
                       <Typography
                         color={activeStep === 0 ? "red" : "gray"}
-                        className="font-normal"
+                        className="font-normal max-w-[140px] md:max-w-none text-sm md:text-base ml-16 md:ml-0 "
                       >
                         Enroll any course with <br />
                         apply coupon Discound
@@ -144,15 +164,13 @@ const Explore = () => {
                   <Step onClick={() => setActiveStep(1)}>
                     <CogIcon className="h-5 w-5" />
                     <div className="absolute -bottom-[4.5rem] w-max text-center">
-                      <Typography
+                      {/* <Typography
                         variant="h6"
                         color={activeStep === 1 ? "red" : "gray"}
-                      >
-
-                      </Typography>
+                      ></Typography> */}
                       <Typography
                         color={activeStep === 1 ? "red" : "gray"}
-                        className="font-normal"
+                        className="font-normal  max-w-[140px] md:max-w-none text-sm md:text-base"
                       >
                         Downloading premium <br />
                         courses for free
@@ -161,16 +179,14 @@ const Explore = () => {
                   </Step>
                   <Step onClick={() => setActiveStep(2)}>
                     <BuildingLibraryIcon className="h-5 w-5" />
-                    <div className="absolute -bottom-[4.5rem] w-max text-center">
-                      <Typography
+                    <div className="absolute -bottom-[4.5rem] w-max text-center mr-16 md:mr-0">
+                      {/* <Typography
                         variant="h6"
                         color={activeStep === 2 ? "red" : "gray"}
-                      >
-
-                      </Typography>
+                      ></Typography> */}
                       <Typography
                         color={activeStep === 2 ? "red" : "gray"}
-                        className="font-normal"
+                        className="font-normal  max-w-[140px] md:max-w-none text-sm md:text-base"
                       >
                         Buy Reccomanded <br />
                         course
@@ -179,7 +195,9 @@ const Explore = () => {
                   </Step>
                 </Stepper>
               </div>
-               <div><br/></div>
+              <div>
+                <br />
+              </div>
               <div className="max-w-inner mx-auto flex justify-between w-full pb-8 pt-[30px] md:pt-[58px]">
                 {/* search */}
                 <div className="max-w-[212px] select-class hidden md:block">
@@ -214,18 +232,16 @@ const Explore = () => {
                       className="w-6 h-6"
                     >
                       <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
-                  />
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                      />
                     </svg>
                   </span>
                 </div>
                 {/* cards */}
 
-
                 {/* select */}
-
               </div>
             </div>
           </TabsHeader>
