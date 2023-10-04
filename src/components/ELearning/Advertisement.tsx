@@ -1,5 +1,11 @@
-import { Button, Card, CardBody, CardHeader, Typography } from '@material-tailwind/react'
-import React from 'react'
+import {
+  Button,
+  Card,
+  CardBody,
+  CardHeader,
+  Typography,
+} from "@material-tailwind/react";
+import React from "react";
 
 const Advertisement = () => {
   return (
@@ -8,11 +14,11 @@ const Advertisement = () => {
         {/* Left side photo */}
         <div className="w-full md:w-1/2 mb-5 md:mb-0">
           <Card shadow={false}>
-            <CardHeader className="m-0">
+            <CardHeader className="m-0 rounded-none">
               <img
-                src="/advertsmnt/Capture.png"
+                src="/advertsmnt/Capture.PNG"
                 alt="card-image"
-                className="h-full w-full object-cover"
+                className="h-[300px] w-full "
               />
             </CardHeader>
           </Card>
@@ -20,12 +26,12 @@ const Advertisement = () => {
 
         {/* Two sections in the same width */}
         <div className="w-full md:w-1/2 mb-4 md:mb-0">
-          <Card shadow={false}>
-            <CardHeader className="m-0">
+          <Card shadow={false} className="rounded-none">
+            <CardHeader className="m-0 rounded-none">
               <img
-                  src="/advertsmnt/Capture2.png"
+                src="/advertsmnt/Capture2.PNG"
                 alt="card-image"
-                className="h-full w-full object-cover"
+                className="h-[300px] w-full "
               />
             </CardHeader>
           </Card>
@@ -33,6 +39,6 @@ const Advertisement = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Advertisement;
