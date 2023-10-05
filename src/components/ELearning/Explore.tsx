@@ -1,7 +1,23 @@
-import { Stepper, Step, Button, Option, Select, Tab, TabPanel, Tabs, TabsBody, TabsHeader, Typography } from '@material-tailwind/react';
-import React from 'react';
-import ExploreFreebieCard from './ExploreFreebieCard';
-import { BuildingLibraryIcon, CogIcon, UserIcon } from '@heroicons/react/24/outline';
+import {
+  Stepper,
+  Step,
+  Button,
+  Option,
+  Select,
+  Tab,
+  TabPanel,
+  Tabs,
+  TabsBody,
+  TabsHeader,
+  Typography,
+} from "@material-tailwind/react";
+import React from "react";
+import ExploreFreebieCard from "./ExploreFreebieCard";
+import {
+  BuildingLibraryIcon,
+  CogIcon,
+  UserIcon,
+} from "@heroicons/react/24/outline";
 
 const Explore = () => {
   const [activeStep, setActiveStep] = React.useState(0);
@@ -60,7 +76,6 @@ const Explore = () => {
       price: 10, // Example price as a number
       hour: "string",
     },
-
   ];
   const data = [
     {
@@ -111,13 +126,20 @@ const Explore = () => {
             }}
           >
             <div className="w-full border-b-2 border-gray-400">
-              <div className="mx-auto justify-between text-center">
-                <Typography variant="h1">Explore Search according your need</Typography>
-                <Typography className="text-sm">Pxplore Search according your need according your need</Typography>
-                <Typography className="text-sm"> according your need</Typography>
+              <div className="mx-auto justify-between text-center mt-6 md:mt-10">
+                <Typography variant="h1">
+                  Explore Search according your need
+                </Typography>
+                <Typography className="text-sm">
+                  Pxplore Search according your need according your need
+                </Typography>
+                <Typography className="text-sm">
+                  {" "}
+                  according your need
+                </Typography>
               </div>
 
-              <div className="max-w-inner mx-auto flex justify-between w-full pb-8 pt-[30px] md:pt-[58px]">
+              <div className="max-w-inner mx-auto flex justify-between w-full pb-8 pt-[30px] md:pt-[58px] px-4">
                 <Stepper
                   activeStep={activeStep}
                   isLastStep={(value) => setIsLastStep(value)}
@@ -126,66 +148,62 @@ const Explore = () => {
                   <Step onClick={() => setActiveStep(0)}>
                     <UserIcon className="h-5 w-5" />
                     <div className="absolute -bottom-[4.5rem] w-max text-center">
-                      <Typography
+                      {/* <Typography
                         variant="h6"
                         color={activeStep === 0 ? "red" : "gray"}
-                      >
-
-                      </Typography>
+                      ></Typography> */}
                       <Typography
                         color={activeStep === 0 ? "red" : "gray"}
-                        className="font-normal"
+                        className="font-normal max-w-[140px] md:max-w-none text-sm md:text-base ml-16 md:ml-0 "
                       >
-                        Enroll any course with <br />
-                        apply coupon Discound
+                        Enroll<br />
+                        
                       </Typography>
                     </div>
                   </Step>
                   <Step onClick={() => setActiveStep(1)}>
                     <CogIcon className="h-5 w-5" />
                     <div className="absolute -bottom-[4.5rem] w-max text-center">
-                      <Typography
+                      {/* <Typography
                         variant="h6"
                         color={activeStep === 1 ? "red" : "gray"}
-                      >
-
-                      </Typography>
+                      ></Typography> */}
                       <Typography
                         color={activeStep === 1 ? "red" : "gray"}
-                        className="font-normal"
+                        className="font-normal  max-w-[140px] md:max-w-none text-sm md:text-base"
                       >
-                        Downloading premium <br />
-                        courses for free
+                        Download<br />
+                        courses 
                       </Typography>
                     </div>
                   </Step>
                   <Step onClick={() => setActiveStep(2)}>
                     <BuildingLibraryIcon className="h-5 w-5" />
-                    <div className="absolute -bottom-[4.5rem] w-max text-center">
-                      <Typography
+                    <div className="absolute -bottom-[4.5rem] w-max text-center mr-16 md:mr-0">
+                      {/* <Typography
                         variant="h6"
                         color={activeStep === 2 ? "red" : "gray"}
-                      >
-
-                      </Typography>
+                      ></Typography> */}
                       <Typography
                         color={activeStep === 2 ? "red" : "gray"}
-                        className="font-normal"
+                        className="font-normal  max-w-[140px] md:max-w-none text-sm md:text-base"
                       >
-                        Buy Reccomanded <br />
+                        Reccomanded<br />
                         course
                       </Typography>
                     </div>
                   </Step>
                 </Stepper>
               </div>
-               <div><br/></div>
+              <div>
+                <br />
+              </div>
               <div className="max-w-inner mx-auto flex justify-between w-full pb-8 pt-[30px] md:pt-[58px]">
                 {/* search */}
                 <div className="max-w-[212px] select-class hidden md:block">
                   <Select
-                    label="filter"
-                    className="rounded-full border border-indigo-600 bg-white text-black focus:outline-none focus:ring-0 focus:ring-offset-0 appearance-none" /* Change bg-primary to bg-blue-500 */
+                    label="⧎ Filter"
+                    className="rounded-full border border-indigo-600 bg-white text-black focus:outline-none focus:ring-0 focus:ring-offset-0 appearance-none"
                     labelProps={{
                       className: "text-black",
                     }}
@@ -198,6 +216,10 @@ const Explore = () => {
                   </Select>
                 </div>
 
+                {/* Gap */}
+                <div className="w-4"></div> {/* This adds a 4-pixel gap between the Filter and Search bar. You can adjust the width as needed. */}
+
+                {/* Search Bar */}
                 <div className="relative mb-3 flex w-full flex-wrap items-stretch hidden md:block">
                   <input
                     type="text"
@@ -213,7 +235,7 @@ const Explore = () => {
                       stroke="currentColor"
                       className="w-6 h-6"
                     >
-                      <path
+                     <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
@@ -223,9 +245,7 @@ const Explore = () => {
                 </div>
                 {/* cards */}
 
-
                 {/* select */}
-
               </div>
             </div>
           </TabsHeader>

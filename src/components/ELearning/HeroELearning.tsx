@@ -1,46 +1,52 @@
-import React from 'react'
-import { Autoplay, EffectFade, Navigation, Pagination } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css/effect-fade";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
-import "./style.css";
-
+import React from 'react';
+import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css/effect-fade';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import './style.css';
 
 const HeroELearning = () => {
+  // Check if the screen width is below a certain breakpoint (e.g., 768px)
+  const isMobile = window.innerWidth <= 768;
+
   return (
     <div className="relative -top-[75px] right-0">
       <div className="relative min-h-[500px] max-w-inner lg:max-w-none">
         {/* hero carousel */}
-
-        <Swiper
-          // @ts-ignore
-          centeredSlides={true}
-          effect="fade"
-          autoplay={{
-            delay: 1500,
-            disableOnInteraction: false,
-          }}
-          pagination={{
-            clickable: true,
-          }}
-          navigation={false}
-          speed={1500}
-          modules={[Autoplay, Pagination, Navigation, EffectFade]}
-          className="hero-slide !hidden md:!block md:max-w-5xl xl:max-w-none "
-        >
-          <SwiperSlide>
-            <img className="h-auto" src="/elearning/hero.svg" alt="hero" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img className="h-auto" src="/elearning/hero.png" alt="hero" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img className="h-auto" src="/elearning/hero.png" alt="hero" />
-          </SwiperSlide>
-        </Swiper>
+        {isMobile ? ( // Conditionally render Swiper on mobile devices
+          <Swiper
+            // @ts-ignore
+            centeredSlides={true}
+            effect="fade"
+            autoplay={{
+              delay: 1500,
+              disableOnInteraction: false,
+            }}
+            pagination={{
+              clickable: true,
+            }}
+            navigation={false}
+            speed={1500}
+            modules={[Autoplay, Pagination, Navigation, EffectFade]}
+            className="hero-slide !hidden md:!block md:max-w-5xl xl:max-w-none"
+          >
+            <SwiperSlide>
+              <img className="h-auto" src="/elearning/hero.svg" alt="hero" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img className="h-auto" src="/elearning/hero.png" alt="hero" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img className="h-auto" src="/elearning/hero.svg" alt="hero" />
+            </SwiperSlide>
+          </Swiper>
+        ) : (
+          // Render hero image for non-mobile devices
+          <img className="h-auto" src="/elearning/hero.svg" alt="hero" />
+        )}
         <div className="flex w-full h-full absolute left-0 top-0 mt-20">
           <div className="w-inner mx-auto h-full flex justify-center flex-col pl-3">
             <h2 className="text-xl md:text-5xl text-black relative inline-block font-semibold">
