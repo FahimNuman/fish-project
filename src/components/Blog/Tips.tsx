@@ -14,10 +14,10 @@ export default function Tips() {
       <div className="flex flex-col gap-8 mt-8">
         {[1, 2].map((i) => (
           <div key={i} className="flex items-center md:gap-6 gap-3">
-            <div className="h-[184.66px] w-[327px] ">
+            <div className="md:h-[184.66px] md:max-w-[250px] max-w-[150px] h-[150px] flex-1">
               <img src="/blog/tips.png" alt="" className="w-full h-full" />
             </div>
-            <div className="flex flex-col md:gap-4 gap-2 md:pr-16 pr-1">
+            <div className="flex flex-col md:gap-4 gap-2 md:pr-16 pr-1 flex-1">
               <h2 className="text-lg md:text-2xl font-semibold">
                 Bio-Health donates 5% of all website sales to KSS Air Ambulance
               </h2>

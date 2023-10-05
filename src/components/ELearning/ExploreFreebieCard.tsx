@@ -24,7 +24,7 @@ export default function ExploreFreebieCard({ card }: { card: Props }) {
     // </div>
 
 
-    <Card className="w-full max-w-[26rem] shadow-lg">
+    <Card className="w-full max-w-[20rem] shadow-lg">
     <CardHeader floated={false} color="blue-gray">
       <img
         src="https://5.imimg.com/data5/SELLER/Default/2021/9/SO/TD/HS/137750033/23sep21-web-500x500.jpg"
@@ -81,7 +81,7 @@ export default function ExploreFreebieCard({ card }: { card: Props }) {
       </div>
     </CardBody>
     <CardFooter className="pt-3">
-      <Button size="lg" fullWidth={true} color="blue">
+      <Button size="lg" fullWidth={true} color="red">
         Apply Coupon
       </Button>
     </CardFooter>

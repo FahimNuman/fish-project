@@ -73,7 +73,7 @@ export default function Latest() {
           <img
             src="/blog/latest-01.png"
             alt=""
-            className="w-[360px] md:h-full md:w-full h-[360px] "
+            className="w-[660px] md:h-full md:w-full h-[360px] "
           />
           <div className="absolute md:bottom-10 bottom-3 md:left-10 left-1 md:w-[568.73px]">
             <h3 className="text-base md:text-lg">Science</h3>
@@ -92,7 +92,7 @@ export default function Latest() {
             <img
               src="/blog/latest-02.png"
               alt=""
-              className="w-[360px] md:w-full h-[360px] md:h-full "
+              className="w-[660px] md:w-full h-[360px] md:h-full "
             />
             <div className="absolute md:bottom-4 xl:bottom-8 bottom-2 md:left-6 left-1 xl:w-[343.39px] md:w-[315.39px] text-white">
               <h3 className="text-base md:text-lg">Sport</h3>
@@ -111,7 +111,7 @@ export default function Latest() {
               <img
                 src="/blog/latest-03.png"
                 alt=""
-                className="!-z-10 relative w-[360px] md:w-full h-[360px] md:h-full"
+                className="!-z-10 relative w-[660px] md:w-full h-[360px] md:h-full"
               />
               <div className="absolute h-full w-full top-0 left-0 bg-slate-700 !z-20"></div>
             </div>
