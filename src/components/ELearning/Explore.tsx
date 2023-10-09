@@ -115,7 +115,7 @@ const Explore = () => {
 
   // Return the JSX content defined in the 'data' array
   return (
-    <div className=''>
+    <div className="">
       <div className=" bg-accent rounded-[30px] max-w-[200rem] md:rounded-[50px] mx-2">
         <Tabs value="Freebie" className="">
           <TabsHeader
@@ -156,8 +156,8 @@ const Explore = () => {
                         color={activeStep === 0 ? "red" : "gray"}
                         className="font-normal max-w-[140px] md:max-w-none text-sm md:text-base ml-16 md:ml-0 "
                       >
-                        Enroll<br />
-                        
+                        Enroll
+                        <br />
                       </Typography>
                     </div>
                   </Step>
@@ -172,8 +172,9 @@ const Explore = () => {
                         color={activeStep === 1 ? "red" : "gray"}
                         className="font-normal  max-w-[140px] md:max-w-none text-sm md:text-base"
                       >
-                        Download<br />
-                        courses 
+                        Download
+                        <br />
+                        courses
                       </Typography>
                     </div>
                   </Step>
@@ -188,7 +189,8 @@ const Explore = () => {
                         color={activeStep === 2 ? "red" : "gray"}
                         className="font-normal  max-w-[140px] md:max-w-none text-sm md:text-base"
                       >
-                        Reccomanded<br />
+                        Reccomanded
+                        <br />
                         course
                       </Typography>
                     </div>
@@ -215,10 +217,9 @@ const Explore = () => {
                     <Option>Material Tailwind Svelte</Option>
                   </Select>
                 </div>
-
                 {/* Gap */}
-                <div className="w-4"></div> {/* This adds a 4-pixel gap between the Filter and Search bar. You can adjust the width as needed. */}
-
+                <div className="w-4"></div>{" "}
+                {/* This adds a 4-pixel gap between the Filter and Search bar. You can adjust the width as needed. */}
                 {/* Search Bar */}
                 <div className="relative mb-3 flex w-full flex-wrap items-stretch hidden md:block">
                   <input
@@ -226,7 +227,7 @@ const Explore = () => {
                     placeholder="Search your need"
                     className="rounded-full shadow-xl py-2 pl-8 pr-10 w-full placeholder:text-gray-700"
                   />
-                  <span className="absolute inset-y-0 right-0 flex items-center pointer-events-none text-black m-1 px-3 rounded-full">
+                  <span className="absolute inset-y-0 right-0 flex items-center  text-black m-1 px-3 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -235,16 +236,15 @@ const Explore = () => {
                       stroke="currentColor"
                       className="w-6 h-6"
                     >
-                     <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
-                  />
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                      />
                     </svg>
                   </span>
                 </div>
                 {/* cards */}
-
                 {/* select */}
               </div>
             </div>

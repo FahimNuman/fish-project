@@ -115,7 +115,7 @@ export default function Category() {
                   placeholder="Search your need"
                   className="rounded-full shadow-xl py-3 pl-8 pr-10 w-full placeholder:text-gray-700"
                 />
-                <span className="absolute inset-y-0 right-0 flex items-center pointer-events-none text-black m-1 px-3 rounded-full">
+                <span className="absolute inset-y-0 right-0 flex items-center  text-black m-1 px-3 rounded-full">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"

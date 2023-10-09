@@ -1,12 +1,12 @@
-import React from 'react';
-import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css/effect-fade';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
-import './style.css';
+import React from "react";
+import { Autoplay, EffectFade, Navigation, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css/effect-fade";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+import "./style.css";
 
 const HeroELearning = () => {
   // Check if the screen width is below a certain breakpoint (e.g., 768px)
@@ -58,10 +58,10 @@ const HeroELearning = () => {
               ></img>
             </h2>
             <h1 className="text-xl md:text-5xl text-black relative inline-block font-semibold">
-              not the next 
+              not the next
               <p className="text-lg md:text-5xl max-w-[491.12px] font-semibold">
-              big thing,
-            </p>
+                big thing,
+              </p>
             </h1>
             <p className="text-lg md:text-5xl max-w-[491.12px] font-semibold">
               it is right now big thing.
@@ -72,7 +72,7 @@ const HeroELearning = () => {
                 placeholder="Join us our Telegram comunity"
                 className="rounded-full shadow-xl py-3 md:py-5 pl-6 md:pl-12 pr-16 w-full"
               />
-              <span className="absolute inset-y-0 right-0 flex items-center pointer-events-none bg-primary text-white m-1 px-3 rounded-full">
+              <span className="absolute inset-y-0 right-0 flex items-center  bg-primary text-white m-1 px-3 rounded-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -98,7 +98,6 @@ const HeroELearning = () => {
       </div>
     </div>
   );
-}
+};
 
-
-export default HeroELearning
+export default HeroELearning;

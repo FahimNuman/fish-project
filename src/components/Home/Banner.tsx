@@ -11,13 +11,13 @@ export default function Banner() {
         />
       </div>
       <div className="col-span-1 bg-secondary relative flex items-center justify-center">
-        <div className="w-[350px] h-[443px] flex flex-col items-center justify-center gap-12 shadow-2xl md:rounded-[60px]">
+        <div className="w-[350px] h-[443px] cursor-pointer flex  flex-col items-center justify-center gap-12 shadow-xl hover:shadow-2xl md:rounded-[60px]">
           <img src="/gift.png" alt="gift" />
           <p className="text-[26px] text-white">Join Giveways</p>
         </div>
       </div>
       <div className="col-span-1 bg-secondary relative flex items-center justify-start">
-        <div className="w-[350px] h-[443px] flex flex-col items-center justify-center gap-12 shadow-2xl md:rounded-[60px]">
+        <div className="w-[350px] h-[443px] cursor-pointer flex  flex-col items-center justify-center gap-12 shadow-xl hover:shadow-2xl md:rounded-[60px]">
           <img src="/envato.png" alt="gift" />
           <p className="text-[26px] text-white">Join Giveways</p>
         </div>
