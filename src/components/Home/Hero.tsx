@@ -18,16 +18,16 @@ export default function Hero() {
           centeredSlides={true}
           effect="fade"
           autoplay={{
-            delay: 1500,
+            delay: 3000,
             disableOnInteraction: false,
           }}
           pagination={{
             clickable: true,
           }}
           navigation={false}
-          speed={1500}
+          speed={3000}
           modules={[Autoplay, Pagination, Navigation, EffectFade]}
-          className="hero-slide !hidden md:!block md:max-w-5xl xl:max-w-none "
+          className="hero-slide !hidden md:!block md:max-w-6xl -z-10"
         >
           <SwiperSlide>
             <img className="h-auto" src="/hero/hero.svg" alt="hero" />
@@ -39,7 +39,7 @@ export default function Hero() {
             <img className="h-auto" src="/hero/hero-3.png" alt="hero" />
           </SwiperSlide>
         </Swiper>
-        <div className="flex w-full h-full absolute left-0 top-0 mt-20">
+        <div className="flex w-full h-full absolute left-0 top-0 mt-20 z-10">
           <div className="w-inner mx-auto h-full flex justify-center flex-col pl-3">
             <h2 className="text-xl md:text-3xl text-black relative inline-block">
               Anything You Like Is Free
@@ -60,9 +60,9 @@ export default function Hero() {
               <input
                 type="text"
                 placeholder="Search your need"
-                className="rounded-full shadow-xl py-3 md:py-5 pl-6 md:pl-12 pr-16 w-full"
+                className="rounded-full shadow-xl py-3 md:py-5 pl-6 md:pl-12 pr-16 w-full -z-10"
               />
-              <span className="absolute inset-y-0 right-0 flex items-center pointer-events-none bg-primary text-white m-1 px-3 rounded-full">
+              <button className="absolute inset-y-0 right-0 flex items-center bg-primary text-white m-1 px-3 rounded-full cursor-pointer z-10">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -77,7 +77,7 @@ export default function Hero() {
                     d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
                   />
                 </svg>
-              </span>
+              </button>
             </div>
             <div className="flex gap-4 mt-24">
               <div className="h-[2px] my-auto w-[71px] bg-primary "></div>

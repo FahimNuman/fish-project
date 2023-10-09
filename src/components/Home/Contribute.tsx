@@ -31,7 +31,9 @@ export default function Contribute() {
     <div className="max-w-inner mx-auto my-[150px] pt-16 pb-20">
       <div className="relative px-2">
         <div className="flex flex-col items-center justify-center gap-8 mb-16">
-          <p className="text-lg md:text-2xl">Are you want contribute?</p>
+          <p className="text-lg cursor-pointer md:text-2xl">
+            Are you want contribute?
+          </p>
           <h2 className="text-2xl md:text-5xl font-semibold text-center">
             Submit your{" "}
             <span className="font-bold text-primary">own freebies</span>
@@ -67,17 +69,19 @@ export default function Contribute() {
           className="contribute-slider max-w-[300px] md:max-w-5xl xl:max-w-inner mx-auto px-2"
         >
           <SwiperSlide className="rounded-xl">
-            <div className="w-[267px] h-[285px] flex flex-col items-center justify-center bg-white rounded-lg">
+            <div className="w-full h-[285px] flex flex-col items-center justify-center bg-white hover:bg-secondary/80 transition-all rounded-lg cursor-pointer">
               <img
                 src="/contribute/1st.png"
                 alt=" 1"
                 className="h-[110px] w-[110px] object-cover"
               />
-              <p className="mt-14 text-lg md:text-2xl font-semibold">Moviet</p>
+              <p className="mt-14 text-lg cursor-pointer md:text-2xl font-semibold">
+                Moviet
+              </p>
             </div>
           </SwiperSlide>
           <SwiperSlide className="rounded-xl">
-            <div className="w-[267px] h-[285px] flex flex-col items-center justify-center bg-white rounded-lg">
+            <div className="w-full h-[285px] flex flex-col items-center justify-center bg-white hover:bg-secondary/80 transition-all rounded-lg cursor-pointer">
               <img
                 src="/contribute/2nd.png"
                 alt=" 1"
@@ -87,7 +91,7 @@ export default function Contribute() {
             </div>
           </SwiperSlide>
           <SwiperSlide className="rounded-xl">
-            <div className="w-[267px] h-[285px] flex flex-col items-center justify-center bg-white rounded-lg">
+            <div className="w-full h-[285px] flex flex-col items-center justify-center bg-white hover:bg-secondary/80 transition-all rounded-lg cursor-pointer">
               <img
                 src="/contribute/3rd.png"
                 alt=" 1"
@@ -97,7 +101,7 @@ export default function Contribute() {
             </div>
           </SwiperSlide>
           <SwiperSlide className="rounded-xl">
-            <div className="w-[267px] h-[285px] flex flex-col items-center justify-center bg-white rounded-lg">
+            <div className="w-full h-[285px] flex flex-col items-center justify-center bg-white hover:bg-secondary/80 transition-all rounded-lg cursor-pointer">
               <img
                 src="/contribute/4th.png"
                 alt=" 1"
@@ -107,7 +111,7 @@ export default function Contribute() {
             </div>
           </SwiperSlide>
           <SwiperSlide className="rounded-xl">
-            <div className="w-[267px] h-[285px] flex flex-col items-center justify-center bg-white rounded-lg">
+            <div className="w-full h-[285px] flex flex-col items-center justify-center bg-white hover:bg-secondary/80 transition-all rounded-lg cursor-pointer">
               <img
                 src="/contribute/1st.png"
                 alt=" 1"
@@ -117,7 +121,7 @@ export default function Contribute() {
             </div>
           </SwiperSlide>
           <SwiperSlide className="rounded-xl">
-            <div className="w-[267px] h-[285px] flex flex-col items-center justify-center bg-white rounded-lg">
+            <div className="w-full h-[285px] flex flex-col items-center justify-center bg-white hover:bg-secondary/80 transition-all rounded-lg cursor-pointer">
               <img
                 src="/contribute/1st.png"
                 alt=" 1"
@@ -169,7 +173,7 @@ export default function Contribute() {
         </div>
       </div>
       <div className="mt-32 flex items-center justify-center">
-        <Button className="bg-primary text-white text-lg md:text-xl md:py-6 py-4 px-14">
+        <Button className="bg-primary text-white text-lg cursor-pointer md:text-xl md:py-6 py-4 px-14">
           Submit your file
         </Button>
       </div>
