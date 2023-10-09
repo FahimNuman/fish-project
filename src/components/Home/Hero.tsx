@@ -27,7 +27,7 @@ export default function Hero() {
           navigation={false}
           speed={3000}
           modules={[Autoplay, Pagination, Navigation, EffectFade]}
-          className="hero-slide !hidden md:!block md:max-w-5xl xl:max-w-none -z-10"
+          className="hero-slide !hidden md:!block md:max-w-6xl -z-10"
         >
           <SwiperSlide>
             <img className="h-auto" src="/hero/hero.svg" alt="hero" />

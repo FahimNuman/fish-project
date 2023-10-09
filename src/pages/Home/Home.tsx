@@ -8,7 +8,7 @@ import Help from "../../components/Home/Help";
 
 export default function Home() {
   return (
-    <div className="max-w-layout mx-auto">
+    <div className="max-w-layout overflow-hidden mx-auto">
       <Hero />
       <Category />
       <About />
