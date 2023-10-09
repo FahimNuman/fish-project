@@ -44,9 +44,9 @@ export default function Hero() {
             <h2 className="text-xl md:text-3xl text-black relative inline-block">
               Anything You Like Is Free
               <img
-                src="/hero/hat.png"
+                src="/hero/hero-logo.svg"
                 alt="hat"
-                className="absolute -top-4 md:-top-5 left-[80%] md:left-[30%] h-8 w-8"
+                className="absolute -top-4 md:-top-5 left-[80%] md:left-[30%] h-8 w-13"
               ></img>
             </h2>
             <h1 className="md:text-[64px] text-[30px] font-semibold">

@@ -79,7 +79,7 @@ export default function Header() {
     <div className="max-h-[768px] max-w-inner mx-auto px-3 md:px-0">
       <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none py-2 px-0 lg:py-4 bg-transparent shadow-none border-0 backdrop-filter-none backdrop-blur-none px-3">
         <div className="flex items-center justify-between text-blue-gray-900">
-          <AppLogo />
+         <button ><AppLogo /></button>
           <div className="mr-4 hidden lg:block">{navList}</div>
           <div className="flex items-center gap-4">
             <Button
