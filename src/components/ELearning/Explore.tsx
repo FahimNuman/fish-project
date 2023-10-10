@@ -115,8 +115,8 @@ const Explore = () => {
 
   // Return the JSX content defined in the 'data' array
   return (
-    <div className="">
-      <div className=" bg-accent rounded-[30px] max-w-[200rem] md:rounded-[50px] mx-2">
+    <div className="z-10 relative">
+      <div className=" bg-accent rounded-[30px] max-w-[200rem] md:rounded-[50px] mx-2 md:mx-0">
         <Tabs value="Freebie" className="">
           <TabsHeader
             className="bg-transparent"
