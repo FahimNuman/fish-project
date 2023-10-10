@@ -9,7 +9,7 @@ export default function About() {
         <div className="col-span-1 flex flex-col gap-9 justify-center mr-4">
           <h2 className="text-2xl md:text-4xl flex items-end gap-2">
             <img
-              src="/hat.png"
+              src="/hat-color.png" 
               alt="hat"
               className="w-[40px] md:w-[60px] h-[40px] md:h-[58px] "
             />
