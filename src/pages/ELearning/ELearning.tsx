@@ -2,6 +2,7 @@ import Advertisement from "../../components/ELearning/Advertisement";
 import EnrollCourse from "../../components/ELearning/EnrollCourse";
 import Explore from "../../components/ELearning/Explore";
 import HeroELearning from "../../components/ELearning/HeroELearning";
+
 import Subscribe from "../../components/ELearning/Subscribe";
 
 export default function ELearning() {
@@ -10,8 +11,8 @@ export default function ELearning() {
       <HeroELearning />
       <Advertisement />
       <Explore />
-      <EnrollCourse />
       <Advertisement />
+      <EnrollCourse />
       <Subscribe />
     </div>
   );

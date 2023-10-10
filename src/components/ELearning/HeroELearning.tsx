@@ -52,7 +52,7 @@ const HeroELearning = () => {
             <h2 className="text-xl md:text-5xl text-black relative inline-block font-semibold">
               Online learning is
               <img
-                src="/hero/hat.png"
+                src="/hat-color.png" 
                 alt="hat"
                 className="absolute -top-4 md:-top-5 left-[80%] md:left-[30%] h-8 w-8 font-semibold"
               ></img>
