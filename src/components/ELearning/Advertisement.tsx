@@ -9,7 +9,7 @@ import React from "react";
 
 const Advertisement = () => {
   return (
-    <div className="xl:max-w-inner md:max-w-5xl mx-auto mt-5 mb-10 px-1">
+    <div className="xl:max-w-layout md:max-w-5xl mx-auto mt-5 mb-10 px-1 md:px-0">
       <div className="flex flex-wrap">
         {/* Left side photo */}
         <div className="w-full md:w-1/2 mb-5 md:mb-0">

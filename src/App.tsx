@@ -9,7 +9,7 @@ function App() {
   return (
     <React.Fragment>
       <Header />
-      <div className="flex flex-col max-w-layout mx-auto px-3 md:px-0">
+      <div className="flex flex-col max-w-layout mx-auto md:px-0">
         <Outlet />
       </div>
       <>
