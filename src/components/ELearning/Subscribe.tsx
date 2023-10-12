@@ -9,7 +9,7 @@ const Subscribe = () => {
         className="h-full w-full object-cover"
       />
       <div className="absolute h-full w-full flex items-center justify-center text-white">
-        <div className="flex flex-col gap-5 mt-0 mt-20 px-2">
+        <div className="flex flex-col gap-5 mt-20 px-2">
           <h2 className="md:text-5xl text-2xl text-center font-bold ">
             Sign Up for our Newslatter
           </h2>
