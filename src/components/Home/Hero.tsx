@@ -27,7 +27,7 @@ export default function Hero() {
           navigation={false}
           speed={3000}
           modules={[Autoplay, Pagination, Navigation, EffectFade]}
-          className="hero-slide !hidden md:!block md:max-w-6xl -z-10"
+          className="hero-slide !hidden md:!block md:max-w-layout -z-10"
         >
           <SwiperSlide>
             <img className="h-auto" src="/hero/hero.svg" alt="hero" />
@@ -44,7 +44,7 @@ export default function Hero() {
             <h2 className="text-xl md:text-3xl text-black relative inline-block">
               Anything You Like Is Free
               <img
-                src="/hat-color.png" 
+                src="/hat-color.png"
                 alt="hat"
                 className="absolute -top-4 md:-top-5 left-[80%] md:left-[30%] h-8 w-13"
               ></img>

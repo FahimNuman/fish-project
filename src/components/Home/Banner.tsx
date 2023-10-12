@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Banner() {
   return (
-    <div className="md:h-[500px] xl:h-[600px] grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 my-20 xl:max-w-inner max-w-4xl mx-auto">
+    <div className="md:h-[500px] xl:h-[600px] grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 my-20 xl:max-w-layout max-w-4xl mx-auto">
       <div className="col-span-1  bg-primary relative">
         <img
           src="/illustration.png"

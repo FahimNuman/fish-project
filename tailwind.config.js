@@ -5,8 +5,8 @@ module.exports = withMT({
   theme: {
     extend: {
       maxWidth: {
-        layout: "1240px",
-        inner: "1120px",
+        layout: "1300px",
+        inner: "1240px",
       },
       width: {
         layout: "1440px",
