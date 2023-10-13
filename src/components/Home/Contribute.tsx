@@ -57,7 +57,7 @@ export default function Contribute() {
             },
             // For screens larger than 640px but smaller than 1024px (tablet)
             1024: {
-              slidesPerView: 3,
+              slidesPerView: 4,
               spaceBetween: 10,
             },
             1440: {

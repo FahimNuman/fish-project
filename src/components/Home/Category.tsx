@@ -21,7 +21,7 @@ export default function Category() {
     {
       id: 2,
       name: "e-learning",
-      icon: "/category/2nd.svg",
+      icon: "/category/book2.png",
     },
     {
       id: 3,
@@ -66,7 +66,7 @@ export default function Category() {
       value: "Freebie",
       desc: (
         <div className="w-full">
-          <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 mx-0 md:mx-10">
             {freebieElements.map((item, index) => (
               <div key={index} className="grid-cols-1">
                 <FreebieCard card={item} />
@@ -107,7 +107,7 @@ export default function Category() {
           }}
         >
           <div className="w-full border-b-2 border-gray-400">
-            <div className="max-w-inner mx-auto flex justify-between w-full pb-8 pt-[30px] md:pt-[58px]">
+            <div className="max-w-inner mx-auto md:px-8 flex justify-between w-full pb-8 pt-[30px] md:pt-[58px]">
               {/* search */}
               <div className="relative max-w-[332px] hidden md:block">
                 <input
@@ -133,7 +133,7 @@ export default function Category() {
                 </span>
               </div>
               {/* cards */}
-              <div className="flex">
+              <div className="flex mx-0 md:mx-10">
                 {data.map(({ label, value }) => (
                   <Tab key={value} value={value} className="">
                     {label}
