@@ -19,8 +19,8 @@ export default function Help() {
     <div className="my-30 mb-52 max-w-inner md:max-w-6xl overflow-hidden px-2 mx-auto">
       <div className="max-w-inner mx-auto flex flex-col items-center">
         <h2 className="text-2xl md:text-5xl font-semibold my-10">
-          Hello how can
-          <span className="font-bold text-primary"> we help?</span>
+          Hello How Can
+          <span className="font-bold text-primary"> We Help?</span>
         </h2>
         <div className="inset-y-0 relative md:w-[977px] flex items-center ">
           <button className="absolute left-5 md:left-7 text-gray-500">
@@ -41,7 +41,7 @@ export default function Help() {
           </button>
           <input
             type="text"
-            placeholder="Search your need"
+            placeholder="Find Your Question's"
             className="rounded-none shadow-2xl py-6 text-sm md:text-base pr-10 md:pr-0 pl-10 md:pl-16 w-full placeholder:text-gray-700 placeholder:text-[14px]"
           />
           <div className="absolute inset-y-0 right-0 flex items-center text-black m-1 px-3 rounded-full">
@@ -51,8 +51,10 @@ export default function Help() {
           </div>
         </div>
         <p className="text-[16px] md:text-[24px] pt-[47px]">
-          Or choose a catagory to find quickly your need
+          or 
         </p>
+        <br/>
+        Choose a Catagory To Find Quickly Your Need
       </div>
       <div className="grid md:grid-cols-3 grid-cols-1 my-24">
         {helpCardItem.map((item) => (
