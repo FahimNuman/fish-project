@@ -6,6 +6,7 @@ import "swiper/css/navigation";
 import SwiperCore from "swiper";
 import "./style.css";
 import { Button } from "@material-tailwind/react";
+import "./fonts.css"
 
 export default function Contribute() {
   const swiperRef = useRef(null);
@@ -69,19 +70,19 @@ export default function Contribute() {
           className="contribute-slider max-w-[300px] md:max-w-5xl xl:max-w-inner mx-auto px-2"
         >
           <SwiperSlide className="rounded-xl">
-            <div className="w-full h-[285px] flex flex-col items-center justify-center bg-white hover:bg-secondary/80 transition-all rounded-lg cursor-pointer">
+          <div className="w-full h-[285px] hover-text-white flex flex-col items-center justify-center bg-white hover:bg-secondary/80 transition-all rounded-lg cursor-pointer">
               <img
                 src="/contribute/1st.png"
                 alt=" 1"
                 className="h-[110px] w-[110px] object-cover"
               />
-              <p className="mt-14 text-lg cursor-pointer md:text-2xl font-semibold">
+              <p className={`mt-14 text-2xl font-semibold `}>
                 Moviet
               </p>
             </div>
           </SwiperSlide>
           <SwiperSlide className="rounded-xl">
-            <div className="w-full h-[285px] flex flex-col items-center justify-center bg-white hover:bg-secondary/80 transition-all rounded-lg cursor-pointer">
+            <div className="w-full h-[285px] hover-text-white flex flex-col items-center justify-center bg-white hover:bg-secondary/80 transition-all rounded-lg cursor-pointer">
               <img
                 src="/contribute/2nd.png"
                 alt=" 1"
@@ -91,7 +92,7 @@ export default function Contribute() {
             </div>
           </SwiperSlide>
           <SwiperSlide className="rounded-xl">
-            <div className="w-full h-[285px] flex flex-col items-center justify-center bg-white hover:bg-secondary/80 transition-all rounded-lg cursor-pointer">
+            <div className="w-full h-[285px] hover-text-white flex flex-col items-center justify-center bg-white hover:bg-secondary/80 transition-all rounded-lg cursor-pointer">
               <img
                 src="/contribute/3rd.png"
                 alt=" 1"
@@ -101,7 +102,7 @@ export default function Contribute() {
             </div>
           </SwiperSlide>
           <SwiperSlide className="rounded-xl">
-            <div className="w-full h-[285px] flex flex-col items-center justify-center bg-white hover:bg-secondary/80 transition-all rounded-lg cursor-pointer">
+            <div className="w-full h-[285px] hover-text-white flex flex-col items-center justify-center bg-white hover:bg-secondary/80 transition-all rounded-lg cursor-pointer">
               <img
                 src="/contribute/4th.png"
                 alt=" 1"
@@ -111,7 +112,7 @@ export default function Contribute() {
             </div>
           </SwiperSlide>
           <SwiperSlide className="rounded-xl">
-            <div className="w-full h-[285px] flex flex-col items-center justify-center bg-white hover:bg-secondary/80 transition-all rounded-lg cursor-pointer">
+            <div className="w-full h-[285px] hover-text-white flex flex-col items-center justify-center bg-white hover:bg-secondary/80 transition-all rounded-lg cursor-pointer">
               <img
                 src="/contribute/1st.png"
                 alt=" 1"
@@ -121,7 +122,7 @@ export default function Contribute() {
             </div>
           </SwiperSlide>
           <SwiperSlide className="rounded-xl">
-            <div className="w-full h-[285px] flex flex-col items-center justify-center bg-white hover:bg-secondary/80 transition-all rounded-lg cursor-pointer">
+            <div className="w-full h-[285px] hover-text-white flex flex-col items-center justify-center bg-white hover:bg-secondary/80 transition-all rounded-lg cursor-pointer">
               <img
                 src="/contribute/1st.png"
                 alt=" 1"

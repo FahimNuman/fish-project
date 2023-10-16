@@ -1,7 +1,7 @@
 import { Button } from "@material-tailwind/react";
 import React from "react";
 import AboutTextArea from "./AboutTextArea";
-
+import "./fonts.css"
 export default function About() {
   return (
     <div className="xl:max-w-inner md:max-w-5xl mx-auto mt-12 mb-16 px-2">
@@ -13,7 +13,7 @@ export default function About() {
               alt="hat"
               className="w-[40px] md:w-[60px] h-[40px] md:h-[58px] "
             />
-            <span className="">About Anon Detect</span>
+            <span style={{ fontFamily: 'Conthrax-SB' }}>About Anon Detect.</span>
           </h2>
           <div className="flex flex-col gap-6 md:gap-10">
             <p className="leading-8 md:leading-10">

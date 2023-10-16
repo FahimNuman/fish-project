@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Conthrax-SB';
+    src: url("../Home/fonts/conthrax-sb.ttf") format('truetype');
+  }
+  
+  .conthrax-sb-font {
+    font-family: 'Conthrax-SB', sans-serif;
+    
+  }
+  .hover-text-white:hover {
+    color: white; /* Change the color to white when hovered */
+  }

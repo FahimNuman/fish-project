@@ -21,7 +21,7 @@ export default function Category() {
     {
       id: 2,
       name: "e-learning",
-      icon: "/category/book2.png",
+      icon: "/category/2nd.jpg",
     },
     {
       id: 3,

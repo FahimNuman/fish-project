@@ -6,6 +6,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import React from "react";
+import "./fonts.css"
 
 export default function AboutTextArea() {
   const [open, setOpen] = React.useState(false);
@@ -20,7 +21,8 @@ export default function AboutTextArea() {
             alt="hat"
             className="w-[40px] md:w-[60px] h-[40px] md:h-[58px]"
           />
-          <span className="">How this site works</span>
+          <span style={{ fontFamily: 'Conthrax-SB' }}>How site works</span>
+         
         </h2>
         <div className="flex flex-col gap-6 md:gap-10">
           <p className="leading-8 md:leading-10">
@@ -61,7 +63,7 @@ export default function AboutTextArea() {
             alt="hat"
             className="w-[40px] md:w-[60px] h-[40px] md:h-[58px]"
           />
-          <span className="">Our Terms & Conditions</span>
+          <span style={{ fontFamily: 'Conthrax-SB' }}>Terms & Condition</span>
         </h2>
         <div className="flex flex-col gap-6 md:gap-10">
           <p className="leading-8 md:leading-10">
