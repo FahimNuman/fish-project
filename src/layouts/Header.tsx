@@ -136,12 +136,19 @@ export default function Header() {
         </div>
         <Collapse open={openNav}>
           {navList}
+          <img
+              src="/nav.png" 
+              alt="hat"
+              className="w-[40px] md:w-[60px] h-[40px] md:h-[58px] "
+            />
           <Button
             variant="gradient"
             size="sm"
             fullWidth
             className="px-4 py-2 rounded-full bg-white"
+            
           >
+            
             <span>Explore</span>
           </Button>
         </Collapse>

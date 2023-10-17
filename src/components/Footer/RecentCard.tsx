@@ -6,7 +6,7 @@ export default function RecentCard() {
           <img src="/home/footer-1.png" alt="footer" />
         </div>
         <div className="flex flex-col h-full justify-center">
-          <p className="text-primary text-[12px] md:text-[15px]">Feb 2, 2021</p>
+          <p className="text-primary text-[12px] md:text-[15px]">Jan 2, 2024</p>
           <p className="max-w-[227px] text-xs md:text-base">
             How to make lorem ipsum diet do lorem amet .
           </p>
@@ -17,7 +17,7 @@ export default function RecentCard() {
           <img src="/home/footer-2.png" alt="footer" />
         </div>
         <div className="flex flex-col h-full justify-center">
-          <p className="text-primary text-[12px] md:text-[15px]">Feb 2, 2021</p>
+          <p className="text-primary text-[12px] md:text-[15px]">Jan 2, 2024</p>
           <p className="max-w-[227px] text-xs md:text-base">
             How to make lorem ipsum diet do lorem amet .
           </p>
@@ -28,7 +28,7 @@ export default function RecentCard() {
           <img src="/home/footer-3.png" alt="footer" />
         </div>
         <div className="flex flex-col h-full justify-center">
-          <p className="text-primary text-[12px] md:text-[15px]">Feb 2, 2021</p>
+          <p className="text-primary text-[12px] md:text-[15px]">Jan 2, 2024</p>
           <p className="max-w-[227px] text-xs md:text-base">
             How to make lorem ipsum diet do lorem amet .
           </p>

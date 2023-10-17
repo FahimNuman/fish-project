@@ -40,7 +40,7 @@ export default function AboutTextArea() {
           >
             <div className="flex items-center gap-3">
               <img src="/about/dot.png" alt="dot" />
-              <p className="">Getting Started Guide</p>
+              <p className="hover:text-blue-500">Getting Started Guide</p>
             </div>
             <img src="/about/plus.png" alt="dot" />
           </Button>

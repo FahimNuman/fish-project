@@ -21,7 +21,7 @@ export default function Category() {
     {
       id: 2,
       name: "e-learning",
-      icon: "/category/2nd.jpg",
+      icon: "/category/2nd.svg",
     },
     {
       id: 3,
@@ -60,6 +60,8 @@ export default function Category() {
     },
   ];
 
+  
+
   const data = [
     {
       label: "Freebie",
@@ -74,7 +76,7 @@ export default function Category() {
             ))}
           </div>
           <div className="w-full flex justify-center mt-24 pb-36">
-            <Button className="bg-primary rounded-full px-14 py-3">
+            <Button className="bg-primary rounded-full px-14 py-3 hover:text-blue-500">
               See More
             </Button>
           </div>
@@ -112,7 +114,7 @@ export default function Category() {
               <div className="relative max-w-[332px] hidden md:block">
                 <input
                   type="text"
-                  placeholder="Search your need"
+                  placeholder="Search Category"
                   className="rounded-full shadow-xl py-3 pl-8 pr-10 w-full placeholder:text-gray-700"
                 />
                 <span className="absolute inset-y-0 right-0 flex items-center  text-black m-1 px-3 rounded-full">
@@ -147,7 +149,7 @@ export default function Category() {
                   label="Select Category"
                   className="rounded-full bg-primary text-white focus:outline-none focus:ring-0 focus:ring-offset-0 appearance-none"
                   labelProps={{
-                    className: "text-white",
+                    className: "text-white ",
                   }}
                 >
                   <Option>Material Tailwind HTML</Option>

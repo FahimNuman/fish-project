@@ -10,11 +10,11 @@ const Subscribe = () => {
       />
       <div className="absolute h-full w-full flex items-center justify-center text-white">
         <div className="flex flex-col gap-5 mt-20 px-2">
-          <h2 className="md:text-5xl text-2xl text-center font-bold ">
-            Sign Up for our Newslatter
+          <h2 style={{ fontFamily: 'Conthrax-SB' }} className="md:text-5xl text-2xl text-center font-bold ">
+            Sign Up For Our Newslatter
           </h2>
-          <p className="text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <p style={{ fontFamily: 'Conthrax-SB' }} className="text-center">
+            The Next Level Journey 
           </p>
           <div className="relative md:w-[650px] w-[310px] mx-auto">
             <input

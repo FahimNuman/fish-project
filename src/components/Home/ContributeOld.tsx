@@ -67,7 +67,7 @@ export default function ContributeOld() {
             alt=" 1"
             className="h-[110px] w-[110px] object-cover"
           />
-          <p className="mt-14 text-2xl font-semibold">Moviet</p>
+          <p className="mt-14 text-2xl font-semibold">Movie</p>
         </div>
         <div className="w-[267px] h-[285px] flex flex-col items-center justify-center bg-white rounded-lg">
           <img
@@ -75,7 +75,7 @@ export default function ContributeOld() {
             alt=" 1"
             className="h-[110px] w-[110px] object-cover"
           />
-          <p className="mt-14 text-2xl font-semibold">Moviet</p>
+          <p className="mt-14 text-2xl font-semibold">Movie</p>
         </div>
         <div className="w-[267px] h-[285px] flex flex-col items-center justify-center bg-white rounded-lg">
           <img
@@ -83,7 +83,7 @@ export default function ContributeOld() {
             alt=" 1"
             className="h-[110px] w-[110px] object-cover"
           />
-          <p className="mt-14 text-2xl font-semibold">Moviet</p>
+          <p className="mt-14 text-2xl font-semibold">Movie</p>
         </div>
         <div className="w-[267px] h-[285px] flex flex-col items-center justify-center bg-white rounded-lg">
           <img
@@ -91,7 +91,7 @@ export default function ContributeOld() {
             alt=" 1"
             className="h-[110px] w-[110px] object-cover"
           />
-          <p className="mt-14 text-2xl font-semibold">Moviet</p>
+          <p className="mt-14 text-2xl font-semibold">Movie</p>
         </div>
       </Carousel>
     </div>
