@@ -112,7 +112,7 @@ export default function Category() {
               <div className="relative max-w-[332px] hidden md:block">
                 <input
                   type="text"
-                  placeholder="Search your need"
+                  placeholder="Search Category"
                   className="rounded-full shadow-xl py-3 pl-8 pr-10 w-full placeholder:text-gray-700"
                 />
                 <span className="absolute inset-y-0 right-0 flex items-center  text-black m-1 px-3 rounded-full">
