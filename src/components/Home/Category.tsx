@@ -21,7 +21,7 @@ export default function Category() {
     {
       id: 2,
       name: "e-learning",
-      icon: "/category/book2.png",
+      icon: "/category/2nd.svg",
     },
     {
       id: 3,
@@ -60,6 +60,8 @@ export default function Category() {
     },
   ];
 
+  
+
   const data = [
     {
       label: "Freebie",
@@ -74,7 +76,7 @@ export default function Category() {
             ))}
           </div>
           <div className="w-full flex justify-center mt-24 pb-36">
-            <Button className="bg-primary rounded-full px-14 py-3">
+            <Button className="bg-primary rounded-full px-14 py-3 hover:text-blue-500">
               See More
             </Button>
           </div>
@@ -147,7 +149,7 @@ export default function Category() {
                   label="Select Category"
                   className="rounded-full bg-primary text-white focus:outline-none focus:ring-0 focus:ring-offset-0 appearance-none"
                   labelProps={{
-                    className: "text-white",
+                    className: "text-white ",
                   }}
                 >
                   <Option>Material Tailwind HTML</Option>

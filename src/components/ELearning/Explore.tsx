@@ -126,14 +126,14 @@ const Explore = () => {
             }}
           >
             <div className="w-full border-b-2 border-gray-400">
-              <div className="mx-auto justify-between text-center mt-6 md:mt-10">
-                <Typography variant="h1">
+              <div  className="mx-auto justify-between text-center mt-6 md:mt-10">
+                <Typography style={{ fontFamily: 'Conthrax-SB' }} variant="h2">
                   Explore Search according your need
                 </Typography>
-                <Typography className="text-sm">
-                  Pxplore Search according your need according your need
+                <Typography style={{ fontFamily: 'Conthrax-SB' }} className="text-sm">
+                  Search according your needed for next level course
                 </Typography>
-                <Typography className="text-sm">
+                <Typography style={{ fontFamily: 'Conthrax-SB' }} className="text-sm">
                   {" "}
                   according your need
                 </Typography>

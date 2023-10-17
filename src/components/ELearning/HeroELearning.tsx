@@ -7,6 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 const HeroELearning = () => {
   // Check if the screen width is below a certain breakpoint (e.g., 768px)
@@ -34,13 +35,13 @@ const HeroELearning = () => {
             className="hero-slide !hidden md:!block md:max-w-5xl xl:max-w-none"
           >
             <SwiperSlide>
-              <img className="h-auto" src="/elearning/hero.svg" alt="hero" />
+              <img className="h-auto" src="/elearning/hero.png" alt="hero" />
             </SwiperSlide>
             <SwiperSlide>
               <img className="h-auto" src="/elearning/hero.png" alt="hero" />
             </SwiperSlide>
             <SwiperSlide>
-              <img className="h-auto" src="/elearning/hero.svg" alt="hero" />
+              <img className="h-auto" src="/elearning/hero.png" alt="hero" />
             </SwiperSlide>
           </Swiper>
         ) : (
@@ -69,7 +70,7 @@ const HeroELearning = () => {
             <div className="relative max-w-[410px] mt-16">
               <input
                 type="text"
-                placeholder="Join us our Telegram comunity"
+                placeholder="Search Your Need"
                 className="rounded-full shadow-xl py-3 md:py-5 pl-6 md:pl-12 pr-16 w-full"
               />
               <span className="absolute inset-y-0 right-0 flex items-center  bg-primary text-white m-1 px-3 rounded-full">
@@ -90,8 +91,13 @@ const HeroELearning = () => {
               </span>
             </div>
             <div className="flex gap-4 mt-24">
-              <div className="h-[2px] my-auto w-[71px] bg-primary "></div>
-              <p className="">Join us our comunity</p>
+              <div className="h-[2px] my-auto w-[71px] bg-primary"></div>
+              <Link
+                className="text-black hover:text-blue-500"
+                to={""}
+              >
+                Join us our community
+              </Link>
             </div>
           </div>
         </div>

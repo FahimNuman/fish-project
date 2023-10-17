@@ -6,6 +6,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -80,8 +81,13 @@ export default function Hero() {
               </button>
             </div>
             <div className="flex gap-4 mt-24">
-              <div className="h-[2px] my-auto w-[71px] bg-primary "></div>
-              <p className="">Join us our comunity</p>
+              <div className="h-[2px] my-auto w-[71px] bg-primary"></div>
+              <Link
+                className="text-black hover:text-blue-500"
+                to={""}
+              >
+                Join us in our community
+              </Link>
             </div>
           </div>
         </div>

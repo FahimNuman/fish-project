@@ -22,7 +22,7 @@ export default function ButtonCard() {
               />
             </svg>
           </span>
-          <p className="text-sm md:text-base">Freebie Publications</p>
+          <p className="text-sm md:text-base hover:text-blue-500">Freebie Publications</p>
         </div>
         <div className="flex items-center gap-1 md:gap-2">
           <span className="">
@@ -41,7 +41,7 @@ export default function ButtonCard() {
               />
             </svg>
           </span>
-          <p className="text-sm md:text-base">Premium Products</p>
+          <p className="text-sm md:text-base hover:text-blue-500">Premium Products</p>
         </div>
         <div className="flex items-center gap-1 md:gap-2">
           <span className="">
@@ -60,7 +60,7 @@ export default function ButtonCard() {
               />
             </svg>
           </span>
-          <p className="text-sm md:text-base">Freelance Services</p>
+          <p className="text-sm md:text-base hover:text-blue-500">Freelance Services</p>
         </div>
         <div className="flex items-center gap-1 md:gap-2">
           <span className="">
@@ -79,7 +79,7 @@ export default function ButtonCard() {
               />
             </svg>
           </span>
-          <p className="text-sm md:text-base">Privacy Policy</p>
+          <p className="text-sm md:text-base hover:text-blue-500">Privacy Policy</p>
         </div>
       </div>
       <div className="flex flex-col gap-2 md:gap-6">

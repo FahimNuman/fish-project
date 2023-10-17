@@ -19,7 +19,7 @@ export default function Banner() {
       <div className="col-span-1 bg-secondary relative flex items-center justify-start">
         <div className="w-[350px] h-[443px] cursor-pointer flex  flex-col items-center justify-center gap-12 shadow-xl hover:shadow-2xl md:rounded-[60px]">
           <img src="/envato.png" alt="gift" />
-          <p className="text-[26px] text-white">Join Giveways</p>
+          <p className="text-[26px] text-white">Envato Free Bies</p>
         </div>
       </div>
     </div>
