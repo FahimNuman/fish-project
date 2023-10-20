@@ -15,12 +15,12 @@ export default function Category() {
   const freebieElements = [
     {
       id: 1,
-      name: "E-Book",
+      name: "EBook",
       icon: "/category/1st.svg",
     },
     {
       id: 2,
-      name: "e-learning",
+      name: "elearning",
       icon: "/category/2nd.svg",
     },
     {
@@ -55,7 +55,7 @@ export default function Category() {
     },
     {
       id: 9,
-      name: "wall-papers",
+      name: "wallpapers",
       icon: "/category/9th.svg",
     },
   ];

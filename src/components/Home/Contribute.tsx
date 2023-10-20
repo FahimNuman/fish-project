@@ -189,7 +189,7 @@ export default function Contribute() {
       </div>
       </div>
       <div className="mt-32 flex items-center justify-center">
-        <Button className="hover:text-blue-500 bg-primary text-white text-lg cursor-pointer md:text-xl md:py-6 py-4 px-14">
+        <Button className=" bg-primary text-white text-lg cursor-pointer md:text-xl md:py-6 py-4 px-14">
           Submit your file
         </Button>
       </div>

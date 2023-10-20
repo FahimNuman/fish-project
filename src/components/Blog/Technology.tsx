@@ -1,5 +1,6 @@
 import React from "react";
 import TimeAndComment from "./TimeAndComment";
+import { Link } from "react-router-dom";
 
 export default function Technology() {
   return (
@@ -20,9 +21,9 @@ export default function Technology() {
                 alt=""
                 className="w-full h-full"
               />
-              <div className="absolute right-7 -bottom-3 p-2 rounded-full bg-green-500">
-                <img src="/blog/plus.png" alt="" className="h-4 w-4" />
-              </div>
+              <Link className="absolute right-7 -bottom-3 p-2 rounded-full bg-green-500" to={""}>
+                <img src="/blog/plus-green.svg" alt="" className="h-5 w-5" />
+              </Link>
             </div>
             <div className="px-8 py-8 flex flex-col gap-4">
               <h2 className="text-xl md:text-2xl font-semibold">

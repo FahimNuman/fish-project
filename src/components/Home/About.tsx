@@ -13,7 +13,7 @@ export default function About() {
               alt="hat"
               className="w-[40px] md:w-[60px] h-[40px] md:h-[58px] "
             />
-            <span  style={{ fontFamily: 'Conthrax-SB' }} className="hover:text-blue-500">About Anon Detect.</span>
+            <span  style={{ fontFamily: 'Conthrax-SB' }} className="">About Anon Detect.</span>
           </h2>
           <div className="flex flex-col gap-6 md:gap-10">
             <p className="leading-8 md:leading-10">
@@ -44,7 +44,7 @@ export default function About() {
             </div>
           </div>
           <div className="w-full flex">
-            <Button className="bg-primary rounded-full px-14 py-3 hover:text-blue-500">
+            <Button className="bg-primary rounded-full px-14 py-3">
               See More
             </Button>
           </div>

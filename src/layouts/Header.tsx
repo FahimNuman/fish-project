@@ -149,7 +149,7 @@ export default function Header() {
             
           >
             
-            <span>Explore</span>
+            <span> Explore</span>
           </Button>
         </Collapse>
       </Navbar>
