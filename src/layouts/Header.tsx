@@ -8,6 +8,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import { Link, useLocation } from "react-router-dom";
+import { CgMenuGridR } from "react-icons/cg";
 
 export default function Header() {
   const [openNav, setOpenNav] = React.useState(false);
@@ -79,7 +80,9 @@ export default function Header() {
     <div className="max-h-[768px] max-w-inner mx-auto px-3 md:px-0">
       <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none py-2 px-0 lg:py-4 bg-transparent shadow-none border-0 backdrop-filter-none backdrop-blur-none px-3">
         <div className="flex items-center justify-between text-blue-gray-900">
-         <button ><AppLogo /></button>
+          <button>
+            <AppLogo />
+          </button>
           <div className="mr-4 hidden lg:block">{navList}</div>
           <div className="flex items-center gap-4">
             <Button
@@ -92,7 +95,10 @@ export default function Header() {
               {isBlog ? (
                 <span className="capitalize text-black">Subscribe</span>
               ) : (
-                <span className="capitalize text-primary">Explore</span>
+                <p className="capitalize text-primary flex gap-1 items-center justify-center">
+                  <CgMenuGridR className="text-lg" />
+                  Explore
+                </p>
               )}
             </Button>
             <IconButton
@@ -137,19 +143,18 @@ export default function Header() {
         <Collapse open={openNav}>
           {navList}
           <img
-              src="/nav.png" 
-              alt="hat"
-              className="w-[40px] md:w-[60px] h-[40px] md:h-[58px] "
-            />
+            src="/nav.png"
+            alt="hat"
+            className="w-[40px] md:w-[60px] h-[40px] md:h-[58px] "
+          />
           <Button
             variant="gradient"
             size="sm"
             fullWidth
             className="px-4 py-2 rounded-full bg-white"
-            
           >
             
-            <span> Explore</span>
+            <span>Explore</span>
           </Button>
         </Collapse>
       </Navbar>

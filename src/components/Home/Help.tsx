@@ -18,9 +18,9 @@ export default function Help() {
   return (
     <div className="my-30 mb-52 max-w-inner md:max-w-6xl overflow-hidden px-2 mx-auto">
       <div className="max-w-inner mx-auto flex flex-col items-center">
-        <h2 className="text-2xl md:text-5xl font-semibold my-10">
+        <h2 style={{ fontFamily: 'Conthrax-SB' }} className="text-2xl md:text-5xl font-semibold my-10 ">
           Hello How Can
-          <span className="font-bold text-primary"> We Help?</span>
+          <span style={{ fontFamily: 'Conthrax-SB' }} className="font-bold text-primary"> We Help?</span>
         </h2>
         <div className="inset-y-0 relative md:w-[977px] flex items-center ">
           <button className="absolute left-5 md:left-7 text-gray-500">
@@ -50,22 +50,22 @@ export default function Help() {
             </Button>
           </div>
         </div>
-        <p className="text-[16px] md:text-[24px] pt-[47px] text-center">
-          or
-          <br/>
-           choose a catagory to find quickly your need
+        <p style={{ fontFamily: 'Conthrax-SB' }} className="text-[16px] md:text-[24px] pt-[47px]">
+          or 
         </p>
+        <br/>
+      <span style={{ fontFamily: 'Conthrax-SB' }}> Choose a Catagory To Find Quickly Your Need</span> 
       </div>
       <div className="grid md:grid-cols-3 grid-cols-1 my-24">
         {helpCardItem.map((item) => (
-          <div
+          <div style={{ fontFamily: 'Conthrax-SB' }}
             className={`col-span-1 ${
-              activeHelpCard === item.id && " border-red-400 border"
-            }`}
+              activeHelpCard === item.id && " border-red-400 border hover:text-blue-500"
+            }` } 
             onClick={() => setActiveHelpCard(item.id)}
             key={item.id}
           >
-            <HelpCard card={item} />
+            <HelpCard activeHelpCard={activeHelpCard} card={item} />
           </div>
         ))}
       </div>
@@ -243,16 +243,25 @@ const helpCardItem = [
   {
     id: 1,
     title: "Freebie Services",
-    icon: "/home/free.png",
+    icon: {
+      black: "/home/free.png",
+      red: "/home/free-2.png",
+    },
   },
   {
     id: 2,
     title: "Premium Services",
-    icon: "/home/dimond.png",
+    icon: {
+      black: "/home/diamond.png",
+      red: "/home/diamond-2.png",
+    },
   },
   {
     id: 3,
     title: "Freelance Services",
-    icon: "/home/man.png",
+    icon: {
+      black: "/home/man.png",
+      red: "/home/man-2.png",
+    },
   },
 ];
