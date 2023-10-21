@@ -21,7 +21,7 @@ export default function AboutTextArea() {
             alt="hat"
             className="w-[40px] md:w-[60px] h-[40px] md:h-[58px]"
           />
-          <span style={{ fontFamily: 'Conthrax-SB' }}>How site works</span>
+          <span >How site works</span>
          
         </h2>
         <div className="flex flex-col gap-6 md:gap-10">
@@ -63,7 +63,7 @@ export default function AboutTextArea() {
             alt="hat"
             className="w-[40px] md:w-[60px] h-[40px] md:h-[58px]"
           />
-          <span style={{ fontFamily: 'Conthrax-SB' }}>Terms & Condition</span>
+          <span >Terms & Condition</span>
         </h2>
         <div className="flex flex-col gap-6 md:gap-10">
           <p className="leading-8 md:leading-10">

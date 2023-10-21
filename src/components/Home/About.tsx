@@ -13,7 +13,7 @@ export default function About() {
               alt="hat"
               className="w-[40px] md:w-[60px] h-[40px] md:h-[58px] "
             />
-            <span  style={{ fontFamily: 'Conthrax-SB' }} className="">About Anon Detect.</span>
+            <span>About Anon Detect.</span>
           </h2>
           <div className="flex flex-col gap-6 md:gap-10">
             <p className="leading-8 md:leading-10">
@@ -26,7 +26,7 @@ export default function About() {
             </p>
           </div>
           <div className="flex items-center gap-4">
-            <p style={{ fontFamily: 'Conthrax-SB' }} className="text-blue-700">Join with us</p>
+            <p className="text-blue-700">Join with us</p>
             <div className="flex gap-2">
               <img
                 src="/about/facebook.png"

@@ -18,9 +18,9 @@ export default function Help() {
   return (
     <div className="my-30 mb-52 max-w-inner md:max-w-6xl overflow-hidden px-2 mx-auto">
       <div className="max-w-inner mx-auto flex flex-col items-center">
-        <h2 style={{ fontFamily: 'Conthrax-SB' }} className="text-2xl md:text-5xl font-semibold my-10 ">
+        <h2 className="text-2xl md:text-5xl font-semibold my-10">
           Hello How Can
-          <span style={{ fontFamily: 'Conthrax-SB' }} className="font-bold text-primary"> We Help?</span>
+          <span className="font-bold text-primary"> We Help?</span>
         </h2>
         <div className="inset-y-0 relative md:w-[977px] flex items-center ">
           <button className="absolute left-5 md:left-7 text-gray-500">
@@ -41,27 +41,27 @@ export default function Help() {
           </button>
           <input
             type="text"
-            placeholder="Find Your Question's"
-            className="hover:text-blue-500 rounded-none shadow-2xl py-6 text-sm md:text-base pr-10 md:pr-0 pl-10 md:pl-16 w-full placeholder:text-gray-700 placeholder:text-[14px]"
+            placeholder="Search your need"
+            className="rounded-none shadow-2xl py-6 text-sm md:text-base pr-10 md:pr-0 pl-10 md:pl-16 w-full placeholder:text-gray-700 placeholder:text-[14px]"
           />
           <div className="absolute inset-y-0 right-0 flex items-center text-black m-1 px-3 rounded-full">
-            <Button className="hover:text-blue-500 bg-primary text-white rounded-none md:py-4 md:px-8 cursor-pointer z-20">
+            <Button className="bg-primary text-white rounded-none md:py-4 md:px-8 cursor-pointer z-20">
               Search
             </Button>
           </div>
         </div>
-        <p style={{ fontFamily: 'Conthrax-SB' }} className="text-[16px] md:text-[24px] pt-[47px]">
-          or 
+        <p className="text-[16px] md:text-[24px] pt-[47px] text-center">
+          or
+          <br/>
+           choose a catagory to find quickly your need
         </p>
-        <br/>
-      <span style={{ fontFamily: 'Conthrax-SB' }}> Choose a Catagory To Find Quickly Your Need</span> 
       </div>
-      <div className="grid md:grid-cols-3 grid-cols-1 my-24 ">
+      <div className="grid md:grid-cols-3 grid-cols-1 my-24">
         {helpCardItem.map((item) => (
-          <div style={{ fontFamily: 'Conthrax-SB' }}
+          <div
             className={`col-span-1 ${
-              activeHelpCard === item.id && " border-red-400 border hover:text-blue-500"
-            }` } 
+              activeHelpCard === item.id && " border-red-400 border"
+            }`}
             onClick={() => setActiveHelpCard(item.id)}
             key={item.id}
           >

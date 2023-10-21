@@ -127,13 +127,13 @@ const Explore = () => {
           >
             <div className="w-full border-b-2 border-gray-400">
               <div  className="mx-auto justify-between text-center mt-6 md:mt-10">
-                <Typography style={{ fontFamily: 'Conthrax-SB' }} variant="h2">
+                <Typography  variant="h2">
                   Explore Search according your need
                 </Typography>
-                <Typography style={{ fontFamily: 'Conthrax-SB' }} className="text-sm">
+                <Typography  className="text-sm">
                   Search according your needed for next level course
                 </Typography>
-                <Typography style={{ fontFamily: 'Conthrax-SB' }} className="text-sm">
+                <Typography  className="text-sm">
                   {" "}
                   according your need
                 </Typography>

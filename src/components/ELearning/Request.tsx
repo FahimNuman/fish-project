@@ -10,7 +10,7 @@ export default function Request() {
               <img src="/request/1.png" alt="request" />
             </div>
             <div className="flex flex-col gap-y-6 md:gap-y-16 md:justify-start justify-center py-6 max-w-[480px]">
-              <h2 style={{ fontFamily: 'Conthrax-SB' }} className="text-2xl md:text-5xl font-bold leading-[2rem] text-center md:text-left md:!leading-[4rem]">
+              <h2  className="text-2xl md:text-5xl font-bold leading-[2rem] text-center md:text-left md:!leading-[4rem]">
                 Request your need. We will try our best to help you
               </h2>
               <div className=" text-black flex justify-center md:justify-start w-full">
@@ -26,7 +26,7 @@ export default function Request() {
                 <p className="text-lg text-center md:text-left">
                   Are you want contribute?
                 </p>
-                <h2 style={{ fontFamily: 'Conthrax-SB' }} className="text-2xl md:text-5xl font-bold leading-[2rem] text-center md:text-left md:!leading-[4rem]">
+                <h2  className="text-2xl md:text-5xl font-bold leading-[2rem] text-center md:text-left md:!leading-[4rem]">
                   Share your resource for everyone. It's helpful.
                 </h2>
               </div>

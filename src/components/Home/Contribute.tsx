@@ -45,12 +45,12 @@ export default function Contribute() {
     <div className="max-w-inner mx-auto my-[150px] pt-16 pb-20">
       <div className="relative px-2">
         <div className="flex flex-col items-center justify-center gap-8 mb-16">
-          <p style={{ fontFamily: 'Conthrax-SB' }} className="text-lg cursor-pointer md:text-2xl">
+          <p  className="text-lg cursor-pointer md:text-2xl">
             Are you want contribute?
           </p>
-          <h2 style={{ fontFamily: 'Conthrax-SB' }} className="text-2xl md:text-5xl font-semibold text-center">
+          <h2 className="text-2xl md:text-5xl font-semibold text-center">
             Submit your{" "}
-            <span style={{ fontFamily: 'Conthrax-SB' }} className="font-bold text-primary">own freebies</span>
+            <span className="font-bold text-primary">own freebies</span>
           </h2>
         </div>
         <Swiper
@@ -90,7 +90,7 @@ export default function Contribute() {
                 className="h-[110px] w-[110px] object-cover"
               />
               <p className={`mt-14 text-2xl font-semibold `}>
-                Movie
+                NETFLIX
               </p>
             </div>
           </SwiperSlide>
@@ -101,7 +101,7 @@ export default function Contribute() {
                 alt=" 1"
                 className="h-[110px] w-[110px] object-cover"
               />
-              <p className="mt-14 text-2xl font-semibold">E-LEarning</p>
+              <p className="mt-14 text-2xl font-semibold">ELEARNING</p>
             </div>
           </SwiperSlide>
           <SwiperSlide className="rounded-xl">
@@ -121,7 +121,7 @@ export default function Contribute() {
                 alt=" 1"
                 className="h-[110px] w-[110px] object-cover"
               />
-              <p className="mt-14 text-2xl font-semibold">WALL-PAPERS</p>
+              <p className="mt-14 text-2xl font-semibold">WALLPAPERS</p>
             </div>
           </SwiperSlide>
           {/* {/* <SwiperSlide className="rounded-xl">
@@ -134,7 +134,7 @@ export default function Contribute() {
               <p className="mt-14 text-2xl font-semibold">Moviet</p>
             </div>
           </SwiperSlide> */}
-          <SwiperSlide className="rounded-xl">
+          {/* <SwiperSlide className="rounded-xl">
             <div className="w-full h-[285px] hover-text-white flex flex-col items-center justify-center bg-white hover:bg-secondary/80 transition-all rounded-lg cursor-pointer">
               <img
                 src="/contribute/1st.png"
@@ -143,7 +143,7 @@ export default function Contribute() {
               />
               <p className="mt-14 text-2xl font-semibold">Moviet</p>
             </div>
-          </SwiperSlide> 
+          </SwiperSlide>  */}
         </Swiper>
         <div className="absolute -bottom-20 left-0 right-0 flex justify-center gap-2 py-2">
         <div

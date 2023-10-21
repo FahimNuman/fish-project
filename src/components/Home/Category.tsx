@@ -15,47 +15,48 @@ export default function Category() {
   const freebieElements = [
     {
       id: 1,
-      name: "EBook",
+      name: "E-Book",
       icon: "/category/1st.svg",
     },
     {
       id: 2,
-      name: "elearning",
+      name: "E-Learning",
       icon: "/category/2nd.svg",
     },
     {
       id: 3,
-      name: "blog",
+      name: "Blog",
       icon: "/category/3rd.svg",
     },
     {
       id: 4,
-      name: "web element",
-      icon: "/category/4th.svg",
+      name: "Web Element",
+       icon: "/category/6th.svg",
+     
     },
     {
       id: 5,
-      name: "software",
+      name: "Softwares",
       icon: "/category/5th.svg",
     },
     {
       id: 6,
-      name: "free netflix",
-      icon: "/category/6th.svg",
+      name: "Free Netflix",
+       icon: "/category/4th.svg",
     },
     {
       id: 7,
-      name: "movie",
+      name: "Movie",
       icon: "/category/7th.svg",
     },
     {
       id: 8,
-      name: "mod apk's",
+      name: "Mod Apk's",
       icon: "/category/8th.svg",
     },
     {
       id: 9,
-      name: "wallpapers",
+      name: "WallPapers",
       icon: "/category/9th.svg",
     },
   ];
@@ -76,7 +77,7 @@ export default function Category() {
             ))}
           </div>
           <div className="w-full flex justify-center mt-24 pb-36">
-            <Button className="bg-primary rounded-full px-14 py-3 hover:text-blue-500">
+            <Button className="bg-primary rounded-full px-14 py-3 ">
               See More
             </Button>
           </div>
