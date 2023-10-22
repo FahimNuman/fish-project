@@ -18,7 +18,7 @@ export default function About() {
           <div className="flex flex-col gap-6 md:gap-10">
             <p className="leading-8 md:leading-10">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              dictum egestas enim. Proin ex sem, volutpat et sapien id, ultrices
+              dictum egestas enim. Proin Ex sem, volutpat et sapien id, ultrices
               e
             </p>
             <p className="leading-8 md:leading-10">
