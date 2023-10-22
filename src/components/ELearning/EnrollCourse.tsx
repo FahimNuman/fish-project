@@ -53,15 +53,15 @@ const EnrollCourse = () => {
               <p  className="text-blue-700">Join with us</p>
               <div className="flex gap-2">
                 <img
-                  src="/about/facebook.png"
+                  src="/about/fb.svg"
                   alt="facebook"
                   className="w-6 h-6 cursor-pointer"
                 />
                 <div className="p-[4px] border rounded-full border-gray-800 cursor-pointer">
-                  <img src="/about/insta.png" alt="instagram" />
+                  <img src="/about/insta.svg" alt="instagram" />
                 </div>
                 <img
-                  src="/about/linkedin.png"
+                  src="/about/linkdin.svg"
                   alt="linkedin"
                   className="w-6 h-6 cursor-pointer"
                 />
@@ -91,15 +91,15 @@ const EnrollCourse = () => {
             <Link  className="text-blue-700" to={""}>Join with us</Link>
               <div className="flex gap-2">
                 <img
-                  src="/about/facebook.png"
+                  src="/about/fb.svg"
                   alt="facebook"
                   className="w-6 h-6 cursor-pointer"
                 />
                 <div className="p-[4px] border rounded-full border-gray-800 cursor-pointer">
-                  <img src="/about/insta.png" alt="instagram" />
+                  <img src="/about/insta.svg" alt="instagram" />
                 </div>
                 <img
-                  src="/about/linkedin.png"
+                  src="/about/linkdin.svg"
                   alt="linkedin"
                   className="w-6 h-6 cursor-pointer"
                 />
@@ -143,15 +143,15 @@ const EnrollCourse = () => {
               <Link  className="text-blue-700" to={""}>Join with us</Link>
               <div className="flex gap-2">
                 <img
-                  src="/about/facebook.png"
+                  src="/about/fb.svg"
                   alt="facebook"
                   className="w-6 h-6 cursor-pointer"
                 />
                 <div className="p-[4px] border rounded-full border-gray-800 cursor-pointer">
-                  <img src="/about/insta.png" alt="instagram" />
+                  <img src="/about/insta.svg" alt="instagram" />
                 </div>
                 <img
-                  src="/about/linkedin.png"
+                  src="/about/linkdin.svg"
                   alt="linkedin"
                   className="w-6 h-6 cursor-pointer"
                 />

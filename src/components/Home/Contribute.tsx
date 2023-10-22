@@ -46,11 +46,12 @@ export default function Contribute() {
       <div className="relative px-2">
         <div className="flex flex-col items-center justify-center gap-8 mb-16">
           <p  className="text-lg cursor-pointer md:text-2xl">
-            Are you want contribute?
+          Do you want to contribute?
           </p>
           <h2 className="text-2xl md:text-5xl font-semibold text-center">
-            Submit your{" "}
-            <span className="font-bold text-primary">own freebies</span>
+            Submit Your{" "}
+            <span className="font-bold text-primary">
+                 Own Freebies</span>
           </h2>
         </div>
         <Swiper
@@ -90,7 +91,7 @@ export default function Contribute() {
                 className="h-[110px] w-[110px] object-cover"
               />
               <p className={`mt-14 text-2xl font-semibold `}>
-                NETFLIX
+                MOVIE
               </p>
             </div>
           </SwiperSlide>
@@ -101,7 +102,7 @@ export default function Contribute() {
                 alt=" 1"
                 className="h-[110px] w-[110px] object-cover"
               />
-              <p className="mt-14 text-2xl font-semibold">ELEARNING</p>
+              <p className="mt-14 text-2xl font-semibold">E-Book</p>
             </div>
           </SwiperSlide>
           <SwiperSlide className="rounded-xl">
@@ -111,7 +112,7 @@ export default function Contribute() {
                 alt=" 1"
                 className="h-[110px] w-[110px] object-cover"
               />
-              <p className="mt-14 text-2xl font-semibold">WEB ELEMENT</p>
+              <p className="mt-14 text-2xl font-semibold">NETFLIX</p>
             </div>
           </SwiperSlide>
           <SwiperSlide className="rounded-xl">
@@ -124,26 +125,46 @@ export default function Contribute() {
               <p className="mt-14 text-2xl font-semibold">WALLPAPERS</p>
             </div>
           </SwiperSlide>
-          {/* {/* <SwiperSlide className="rounded-xl">
+         <SwiperSlide className="rounded-xl">
             <div className="w-full h-[285px] hover-text-white flex flex-col items-center justify-center bg-white hover:bg-secondary/80 transition-all rounded-lg cursor-pointer">
               <img
-                src="/contribute/1st.png"
+                src="/contribute/ARTICLE.svg"
                 alt=" 1"
                 className="h-[110px] w-[110px] object-cover"
               />
-              <p className="mt-14 text-2xl font-semibold">Moviet</p>
+              <p className="mt-14 text-2xl font-semibold">ARTICLE</p>
             </div>
-          </SwiperSlide> */}
-          {/* <SwiperSlide className="rounded-xl">
+          </SwiperSlide> 
+          <SwiperSlide className="rounded-xl">
             <div className="w-full h-[285px] hover-text-white flex flex-col items-center justify-center bg-white hover:bg-secondary/80 transition-all rounded-lg cursor-pointer">
               <img
-                src="/contribute/1st.png"
+                src="/contribute/Apk.svg"
                 alt=" 1"
                 className="h-[110px] w-[110px] object-cover"
               />
-              <p className="mt-14 text-2xl font-semibold">Moviet</p>
+              <p className="mt-14 text-2xl font-semibold">APK</p>
             </div>
-          </SwiperSlide>  */}
+          </SwiperSlide>
+          <SwiperSlide className="rounded-xl">
+            <div className="w-full h-[285px] hover-text-white flex flex-col items-center justify-center bg-white hover:bg-secondary/80 transition-all rounded-lg cursor-pointer">
+              <img
+                src="/contribute/Course.svg"
+                alt=" 1"
+                className="h-[110px] w-[110px] object-cover"
+              />
+              <p className="mt-14 text-2xl font-semibold">COURSE</p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="rounded-xl">
+            <div className="w-full h-[285px] hover-text-white flex flex-col items-center justify-center bg-white hover:bg-secondary/80 transition-all rounded-lg cursor-pointer">
+              <img
+                src="/contribute/SOFTWARE.svg"
+                alt=" 1"
+                className="h-[110px] w-[110px] object-cover"
+              />
+              <p className="mt-14 text-2xl font-semibold">SOFTWARE</p>
+            </div>
+          </SwiperSlide>
         </Swiper>
         <div className="absolute -bottom-20 left-0 right-0 flex justify-center gap-2 py-2">
         <div

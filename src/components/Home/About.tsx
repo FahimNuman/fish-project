@@ -13,7 +13,7 @@ export default function About() {
               alt="hat"
               className="w-[40px] md:w-[60px] h-[40px] md:h-[58px] "
             />
-            <span>About Anon Detect.</span>
+            <span>About Anon Detect</span>
           </h2>
           <div className="flex flex-col gap-6 md:gap-10">
             <p className="leading-8 md:leading-10">
@@ -29,15 +29,15 @@ export default function About() {
             <p className="text-blue-700">Join with us</p>
             <div className="flex gap-2">
               <img
-                src="/about/facebook.png"
+                src="/about/fb.svg"
                 alt="facebook"
                 className="w-6 h-6 cursor-pointer"
               />
               <div className="p-[4px] border rounded-full border-gray-800 cursor-pointer">
-                <img src="/about/insta.png" alt="instagram" />
+                <img src="/about/insta.svg" alt="instagram" />
               </div>
               <img
-                src="/about/linkedin.png"
+                src="/about/linkdin.svg"
                 alt="linkedin"
                 className="w-6 h-6 cursor-pointer"
               />

@@ -18,9 +18,9 @@ export default function Help() {
   return (
     <div className="my-30 mb-52 max-w-inner md:max-w-6xl overflow-hidden px-2 mx-auto">
       <div className="max-w-inner mx-auto flex flex-col items-center">
-        <h2 style={{ fontFamily: 'Conthrax-SB' }} className="text-2xl md:text-5xl font-semibold my-10 ">
+        <h2  className="text-2xl md:text-5xl font-semibold my-10 ">
           Hello How Can
-          <span style={{ fontFamily: 'Conthrax-SB' }} className="font-bold text-primary"> We Help?</span>
+          <span  className="font-bold text-primary"> We Help?</span>
         </h2>
         <div className="inset-y-0 relative md:w-[977px] flex items-center ">
           <button className="absolute left-5 md:left-7 text-gray-500">
@@ -50,15 +50,15 @@ export default function Help() {
             </Button>
           </div>
         </div>
-        <p style={{ fontFamily: 'Conthrax-SB' }} className="text-[16px] md:text-[24px] pt-[47px]">
+        <p  className="text-[16px] md:text-[24px] pt-[47px]">
           or 
         </p>
         <br/>
-      <span style={{ fontFamily: 'Conthrax-SB' }}> Choose a Catagory To Find Quickly Your Need</span> 
+      <span > Choose a Catagory To Find Quickly Your Need</span> 
       </div>
       <div className="grid md:grid-cols-3 grid-cols-1 my-24">
         {helpCardItem.map((item) => (
-          <div style={{ fontFamily: 'Conthrax-SB' }}
+          <div 
             className={`col-span-1 ${
               activeHelpCard === item.id && " border-red-400 border hover:text-blue-500"
             }` } 
