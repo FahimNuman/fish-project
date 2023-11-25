@@ -40,7 +40,7 @@ export default function Hero() {
             <img className="h-auto" src="/hero/hero-3.png" alt="hero" />
           </SwiperSlide>
         </Swiper>
-        <div className="flex w-full h-full absolute left-0 top-0 mt-20 z-10">
+        <div className="flex w-full h-full absolute left-0 top-0 mt-20">
           <div className="w-inner mx-auto h-full flex justify-center flex-col pl-3">
             <h2 className="text-xl md:text-3xl text-black relative inline-block">
               Anything You Like Is Free
@@ -82,10 +82,7 @@ export default function Hero() {
             </div>
             <div className="flex gap-4 mt-24">
               <div className="h-[2px] my-auto w-[71px] bg-primary"></div>
-              <Link
-                className="text-black hover:text-blue-500"
-                to={""}
-              >
+              <Link className="text-black hover:text-blue-500" to={""}>
                 Join us in our community
               </Link>
             </div>
