@@ -8,6 +8,10 @@ import {
   Typography,
   Select,
   Option,
+  Menu,
+  MenuHandler,
+  MenuList,
+  MenuItem,
 } from "@material-tailwind/react";
 import { Link, useLocation } from "react-router-dom";
 import "./style.css";
@@ -121,16 +125,26 @@ export default function Header() {
                   </svg>
                 </span>
               </div>
-              <div className=" bg-white shadow-sm flex justify-between gap-3 pl-8 py-3 pr-8 rounded max-md:px-5">
-                <img
-                  loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/2c8229dc-b0b8-4201-8486-0d9448bacc1b?"
-                  className="aspect-square object-contain object-center w-[18px] overflow-hidden shrink-0 max-w-full"
-                />
-                <div className="text-black text-center text-sm font-medium leading-8 grow whitespace-nowrap">
-                  Filters
-                </div>
-              </div>
+              <Menu>
+                <MenuHandler>
+                  <div className=" bg-white shadow-sm flex justify-between gap-3 pl-8 py-3 pr-8 rounded max-md:px-5 cursor-pointer">
+                    <img
+                      alt="filter"
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/2c8229dc-b0b8-4201-8486-0d9448bacc1b?"
+                      className="aspect-square object-contain object-center w-[18px] overflow-hidden shrink-0 max-w-full"
+                    />
+                    <div className="text-black text-center text-sm font-medium leading-8 grow whitespace-nowrap">
+                      Filters
+                    </div>
+                  </div>
+                </MenuHandler>
+                <MenuList>
+                  <MenuItem>Menu Item 1</MenuItem>
+                  <MenuItem>Menu Item 2</MenuItem>
+                  <MenuItem>Menu Item 3</MenuItem>
+                </MenuList>
+              </Menu>
             </div>
           </div>
           <div className="flex items-center gap-4">
