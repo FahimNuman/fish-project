@@ -81,7 +81,7 @@ export default function Header() {
 
   return (
     <div className="max-h-[768px] max-w-inner mx-auto px-3 md:px-0 mb-10">
-      <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none py-2 px-0 lg:py-4 bg-transparent shadow-none border-0 backdrop-filter-none backdrop-blur-none px-3">
+      <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none py-2 lg:py-4 bg-transparent shadow-none border-0 backdrop-filter-none backdrop-blur-none px-3">
         <div className="flex gap-3 items-center justify-between text-blue-gray-900">
           <button>
             <AppLogo />
@@ -90,8 +90,8 @@ export default function Header() {
           <div className="mr-4 hidden lg:block w-full">
             <div className="flex gap-3 items-center justify-between max-md:flex-wrap max-md:justify-center ">
               <div className="relative  w-full flex-wrap items-stretch md:block self-stretch flex justify-between rounded z-50">
-                <div className="absolute inset-y-0 left-0 flex items-center  text-black rounded-lg pl-6 button-style">
-                  <Select label="All Resources" className=" h-full">
+                <div className="absolute inset-y-0 left-0 flex items-center  text-black rounded-lg pl-6 button-style w-40">
+                  <Select label="All Resources" className=" h-full ">
                     <Option>Material Tailwind HTML</Option>
                     <Option>Material Tailwind React</Option>
                     <Option>Material Tailwind Vue</Option>
@@ -102,7 +102,7 @@ export default function Header() {
                 <input
                   type="text"
                   placeholder="Search all of resources"
-                  className="rounded-lg shadow-sm py-4 pl-[33%] pr-10 w-full placeholder:text-gray-700"
+                  className="rounded-lg shadow-sm py-4 pl-[38%] pr-10 w-full placeholder:text-gray-700"
                 />
                 <span className="absolute inset-y-0 right-0 flex items-center  text-white bg-primary px-6 rounded-lg">
                   <svg
