@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Request() {
   return (
-    <div className="bg-secondary text-white pt-20 -mt-12 -z-10 ">
+    <div className="bg-secondary text-white pt-20 -mt-12 -z-10">
       <div className="xl:max-w-inner md:max-w-5xl mx-auto pt-12 pb-16 px-2 relative overflow-hidden">
         <div className="flex flex-col gap-16">
           <div className="grid grid-cols-1 md:grid-cols-2">
@@ -10,7 +10,10 @@ export default function Request() {
               <img src="/request/1.png" alt="request" />
             </div>
             <div className="flex flex-col gap-y-6 md:gap-y-16 md:justify-start justify-center py-6 max-w-[480px]">
-              <h2 style={{ fontFamily: 'Conthrax-SB' }} className="text-2xl md:text-5xl font-bold leading-[2rem] text-center md:text-left md:!leading-[4rem]">
+              <h2
+                style={{ fontFamily: "Conthrax-SB" }}
+                className="text-2xl md:text-5xl font-bold leading-[2rem] text-center md:text-left md:!leading-[4rem]"
+              >
                 Request your need. We will try our best to help you
               </h2>
               <div className=" text-black flex justify-center md:justify-start w-full">
@@ -20,13 +23,16 @@ export default function Request() {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 ">
+          <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="flex flex-col gap-y-6 md:gap-y-16 md:justify-start justify-center py-6 max-w-[680px]">
               <div className="flex flex-col gap-3">
                 <p className="text-lg text-center md:text-left">
                   Are you want contribute?
                 </p>
-                <h2 style={{ fontFamily: 'Conthrax-SB' }} className="text-2xl md:text-5xl font-bold leading-[2rem] text-center md:text-left md:!leading-[4rem]">
+                <h2
+                  style={{ fontFamily: "Conthrax-SB" }}
+                  className="text-2xl md:text-5xl font-bold leading-[2rem] text-center md:text-left md:!leading-[4rem]"
+                >
                   Share your resource for everyone. It's helpful.
                 </h2>
               </div>
