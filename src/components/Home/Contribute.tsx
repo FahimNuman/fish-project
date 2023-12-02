@@ -46,7 +46,7 @@ export default function Contribute() {
       <div className="relative px-2">
         <div className="flex flex-col items-center justify-center gap-8 mb-16">
           <p  className="text-lg cursor-pointer md:text-2xl">
-          Do you want to contribute?
+          Would you like to contribute? 
           </p>
           <h2 className="text-2xl md:text-5xl font-semibold text-center">
             Submit Your{" "}
@@ -91,7 +91,7 @@ export default function Contribute() {
                 className="h-[110px] w-[110px] object-cover"
               />
               <p className={`mt-14 text-2xl font-semibold `}>
-                MOVIE
+                MOVIES
               </p>
             </div>
           </SwiperSlide>
@@ -102,7 +102,7 @@ export default function Contribute() {
                 alt=" 1"
                 className="h-[110px] w-[110px] object-cover"
               />
-              <p className="mt-14 text-2xl font-semibold">E-Book</p>
+              <p className="mt-14 text-2xl font-semibold">E-BOOK</p>
             </div>
           </SwiperSlide>
           <SwiperSlide className="rounded-xl">
@@ -112,7 +112,7 @@ export default function Contribute() {
                 alt=" 1"
                 className="h-[110px] w-[110px] object-cover"
               />
-              <p className="mt-14 text-2xl font-semibold">NETFLIX</p>
+              <p className="mt-14 text-2xl font-semibold">ENTERTAINMENT</p>
             </div>
           </SwiperSlide>
           <SwiperSlide className="rounded-xl">

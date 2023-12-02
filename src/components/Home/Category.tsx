@@ -41,7 +41,7 @@ export default function Category() {
     },
     {
       id: 6,
-      name: "Free Netflix",
+      name: "Entertainment",
        icon: "/category/4th.svg",
     },
     {

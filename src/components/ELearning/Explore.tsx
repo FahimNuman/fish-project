@@ -126,86 +126,14 @@ const Explore = () => {
             }}
           >
             <div className="w-full border-b-2 border-gray-400">
-              <div  className="mx-auto justify-between text-center mt-6 md:mt-10">
-                <Typography  variant="h2">
-                  Explore Search according your need
-                </Typography>
-                <Typography  className="text-sm">
-                  Search according your needed for next level course
-                </Typography>
-                <Typography  className="text-sm">
-                  {" "}
-                  according your need
-                </Typography>
-              </div>
-
-              <div className="max-w-inner mx-auto flex justify-between w-full pb-8 pt-[30px] md:pt-[58px] px-4">
-                <Stepper
-                  activeStep={activeStep}
-                  isLastStep={(value) => setIsLastStep(value)}
-                  isFirstStep={(value) => setIsFirstStep(value)}
-                >
-                  <Step onClick={() => setActiveStep(0)}>
-                    <UserIcon className="h-5 w-5" />
-                    <div className="absolute -bottom-[4.5rem] w-max text-center">
-                      {/* <Typography
-                        variant="h6"
-                        color={activeStep === 0 ? "red" : "gray"}
-                      ></Typography> */}
-                      <Typography
-                        color={activeStep === 0 ? "red" : "gray"}
-                        className="font-normal max-w-[140px] md:max-w-none text-sm md:text-base ml-16 md:ml-0 "
-                      >
-                        Enroll
-                        <br />
-                      </Typography>
-                    </div>
-                  </Step>
-                  <Step onClick={() => setActiveStep(1)}>
-                    <CogIcon className="h-5 w-5" />
-                    <div className="absolute -bottom-[4.5rem] w-max text-center">
-                      {/* <Typography
-                        variant="h6"
-                        color={activeStep === 1 ? "red" : "gray"}
-                      ></Typography> */}
-                      <Typography
-                        color={activeStep === 1 ? "red" : "gray"}
-                        className="font-normal  max-w-[140px] md:max-w-none text-sm md:text-base"
-                      >
-                        Download
-                        <br />
-                        courses
-                      </Typography>
-                    </div>
-                  </Step>
-                  <Step onClick={() => setActiveStep(2)}>
-                    <BuildingLibraryIcon className="h-5 w-5" />
-                    <div className="absolute -bottom-[4.5rem] w-max text-center mr-16 md:mr-0">
-                      {/* <Typography
-                        variant="h6"
-                        color={activeStep === 2 ? "red" : "gray"}
-                      ></Typography> */}
-                      <Typography
-                        color={activeStep === 2 ? "red" : "gray"}
-                        className="font-normal  max-w-[140px] md:max-w-none text-sm md:text-base"
-                      >
-                        Reccomanded
-                        <br />
-                        course
-                      </Typography>
-                    </div>
-                  </Step>
-                </Stepper>
-              </div>
-              <div>
-                <br />
-              </div>
+              
+              
               <div className="max-w-inner mx-auto flex justify-between w-full pb-8 pt-[30px] md:pt-[58px]">
                 {/* search */}
                 <div className="max-w-[212px] select-class hidden md:block">
                   <Select
                     label="⧎ Filter"
-                    className="rounded-full border border-indigo-600 bg-white text-black focus:outline-none focus:ring-0 focus:ring-offset-0 appearance-none"
+                    className=" border border-indigo-600 px-3 py-1 font-semibold rounded-md bg-white text-black focus:outline-none focus:ring-0 focus:ring-offset-0 appearance-none"
                     labelProps={{
                       className: "text-black",
                     }}

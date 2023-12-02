@@ -1,4 +1,5 @@
 import Advertisement from "../../components/ELearning/Advertisement";
+import Cards from "../../components/ELearning/Cards";
 import EnrollCourse from "../../components/ELearning/EnrollCourse";
 import Explore from "../../components/ELearning/Explore";
 import HeroELearning from "../../components/ELearning/HeroELearning";
@@ -10,11 +11,12 @@ export default function ELearning() {
   return (
     <div className="max-w-layout mx-auto">
       <HeroELearning />
+      <Cards />
       <Advertisement />
       <Explore />
       <Request />
       <Advertisement />
-      <EnrollCourse />
+      {/* <EnrollCourse /> */}
       <Subscribe />
     </div>
   );
