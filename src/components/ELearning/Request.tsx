@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Request() {
   return (
-    <div className="bg-secondary text-white pt-20 -mt-12 -z-10 ">
+    <div className="bg-secondary text-white pt-20 -mt-12 -z-10">
       <div className="xl:max-w-inner md:max-w-5xl mx-auto pt-12 pb-16 px-2 relative overflow-hidden">
         <div className="flex flex-col gap-16">
           <div className="grid grid-cols-1 md:grid-cols-2 items-center"> {/* Added 'items-center' class here */}
