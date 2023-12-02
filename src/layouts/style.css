@@ -1,0 +1,6 @@
+.peer {
+  @apply border-0 focus:ring-0 focus:outline-none border-r-2 rounded-none;
+}
+.button-style div label {
+  @apply before:hidden after:hidden;
+}
