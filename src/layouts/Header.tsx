@@ -96,11 +96,14 @@ export default function Header() {
               <div className="relative  w-full flex-wrap items-stretch md:block self-stretch flex justify-between rounded z-50">
                 <div className="absolute inset-y-0 left-0 flex items-center  text-black rounded-lg pl-6 button-style w-40">
                   <Select label="All Resources" className=" h-full ">
-                    <Option>Material Tailwind HTML</Option>
-                    <Option>Material Tailwind React</Option>
-                    <Option>Material Tailwind Vue</Option>
-                    <Option>Material Tailwind Angular</Option>
-                    <Option>Material Tailwind Svelte</Option>
+                    <Option>E-Book</Option>
+                    <Option><Link to={"/eLearning"}>E-Learning</Link></Option>
+                    <Option><Link to={"/blog"}>Blog</Link></Option>
+                    <Option>Web Element</Option>
+                    <Option>Entertainment</Option>
+                    <Option>Movie</Option>
+                    <Option>Mod Apk's</Option>
+                    <Option>WallPapers</Option>
                   </Select>
                 </div>
                 <input
@@ -125,7 +128,7 @@ export default function Header() {
                   </svg>
                 </span>
               </div>
-              <Menu>
+              {/* <Menu>
                 <MenuHandler>
                   <div className=" bg-white shadow-sm flex justify-between gap-3 pl-8 py-3 pr-8 rounded max-md:px-5 cursor-pointer">
                     <img
@@ -140,11 +143,11 @@ export default function Header() {
                   </div>
                 </MenuHandler>
                 <MenuList>
-                  <MenuItem>Menu Item 1</MenuItem>
-                  <MenuItem>Menu Item 2</MenuItem>
-                  <MenuItem>Menu Item 3</MenuItem>
+                  <MenuItem> <Link to={"/"}>Home </Link>   </MenuItem>
+                  <MenuItem> <Link to={"/blog"}>Blog</Link> </MenuItem>
+                  <MenuItem> <Link to={"/elearning"}>E-Learning</Link> </MenuItem>
                 </MenuList>
-              </Menu>
+              </Menu> */}
             </div>
           </div>
           <div className="flex items-center gap-4">

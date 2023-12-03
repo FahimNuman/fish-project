@@ -16,7 +16,7 @@ export default function ELearning() {
       <Explore />
       <Request />
       <Advertisement />
-      <EnrollCourse />
+      {/* <EnrollCourse /> */}
       <Subscribe />
     </div>
   );

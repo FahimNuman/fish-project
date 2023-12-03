@@ -17,7 +17,7 @@ export default function HelpCard({ card, activeHelpCard }: Prop) {
       <img
         src={activeHelpCard === card.id ? card.icon.red : card.icon.black}
         alt="icon"
-        className="w-[92px] h-[72px]"
+        className="w-[100px] h-[90px]"
       />
       <p
         className={`text-[24px] ${

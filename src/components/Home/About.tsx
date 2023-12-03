@@ -13,12 +13,12 @@ export default function About() {
               alt="hat"
               className="w-[40px] md:w-[60px] h-[40px] md:h-[58px] "
             />
-            <span  style={{ fontFamily: 'Conthrax-SB' }} className="hover:text-blue-500">About Anon Detect.</span>
+            <span>About Anon Detect</span>
           </h2>
           <div className="flex flex-col gap-6 md:gap-10">
             <p className="leading-8 md:leading-10">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              dictum egestas enim. Proin ex sem, volutpat et sapien id, ultrices
+              dictum egestas enim. Proin Ex sem, volutpat et sapien id, ultrices
               e
             </p>
             <p className="leading-8 md:leading-10">
@@ -26,25 +26,25 @@ export default function About() {
             </p>
           </div>
           <div className="flex items-center gap-4">
-            <p style={{ fontFamily: 'Conthrax-SB' }} className="text-blue-700">Join with us</p>
+            <p className="text-blue-700">Join with us</p>
             <div className="flex gap-2">
               <img
-                src="/about/facebook.png"
+                src="/about/fb.svg"
                 alt="facebook"
                 className="w-6 h-6 cursor-pointer"
               />
               <div className="p-[4px] border rounded-full border-gray-800 cursor-pointer">
-                <img src="/about/insta.png" alt="instagram" />
+                <img src="/about/insta.svg" alt="instagram" />
               </div>
               <img
-                src="/about/linkedin.png"
+                src="/about/linkdin.svg"
                 alt="linkedin"
                 className="w-6 h-6 cursor-pointer"
               />
             </div>
           </div>
           <div className="w-full flex">
-            <Button className="bg-primary rounded-full px-14 py-3 hover:text-blue-500">
+            <Button className="bg-primary rounded-full px-14 py-3">
               See More
             </Button>
           </div>

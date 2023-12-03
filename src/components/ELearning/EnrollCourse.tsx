@@ -1,5 +1,6 @@
 import { Button } from "@material-tailwind/react";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const EnrollCourse = () => {
   return (
@@ -39,28 +40,28 @@ const EnrollCourse = () => {
           <div className="col-span-1 flex flex-col gap-9 justify-center ml-4 mt-4 md:mt-0">
             {" "}
             {/* Add mt-4 for margin above the text */}
-            <h2 style={{ fontFamily: 'Conthrax-SB' }} className="text-2xl md:text-4xl flex items-end gap-2">
+            <h2  className="text-2xl md:text-4xl flex items-end gap-2">
               <span className="">Enroll any course</span>
             </h2>
             <div className="text-2xl md:text-4xl flex items-end gap-2">
-              <p style={{ fontFamily: 'Conthrax-SB' }} className="leading-8 md:leading-10">apply Coupon</p>
+              <p  className="leading-8 md:leading-10">apply Coupon</p>
             </div>
             <div className="text-2xl md:text-4xl flex items-end gap-2">
-              <p style={{ fontFamily: 'Conthrax-SB' }} className="leading-8 md:leading-10">discount code.</p>
+              <p  className="leading-8 md:leading-10">discount code.</p>
             </div>
             <div className="flex items-center gap-4">
-              <p style={{ fontFamily: 'Conthrax-SB' }} className="text-blue-700">Join with us</p>
+              <p  className="text-blue-700">Join with us</p>
               <div className="flex gap-2">
                 <img
-                  src="/about/facebook.png"
+                  src="/about/fb.svg"
                   alt="facebook"
                   className="w-6 h-6 cursor-pointer"
                 />
                 <div className="p-[4px] border rounded-full border-gray-800 cursor-pointer">
-                  <img src="/about/insta.png" alt="instagram" />
+                  <img src="/about/insta.svg" alt="instagram" />
                 </div>
                 <img
-                  src="/about/linkedin.png"
+                  src="/about/linkdin.svg"
                   alt="linkedin"
                   className="w-6 h-6 cursor-pointer"
                 />
@@ -77,28 +78,28 @@ const EnrollCourse = () => {
         <div className="grid md:grid-cols-2 grid-cols-1">
           {/* Text on the left */}
           <div className="col-span-1 flex flex-col gap-9 justify-center mr-4">
-            <h2 style={{ fontFamily: 'Conthrax-SB' }} className="text-2xl md:text-4xl flex items-end gap-2">
+            <h2  className="text-2xl md:text-4xl flex items-end gap-2">
               <span className="">Downloading</span>
             </h2>
             <div className="text-2xl md:text-4xl flex items-end gap-2">
-              <p style={{ fontFamily: 'Conthrax-SB' }} className="leading-8 md:leading-10">premium courses</p>
+              <p  className="leading-8 md:leading-10">premium courses</p>
             </div>
             <div className="text-2xl md:text-4xl flex items-end gap-2">
               <p className="leading-8 md:leading-10">for free.</p>
             </div>
             <div className="flex items-center gap-4">
-              <p style={{ fontFamily: 'Conthrax-SB' }} className="text-blue-700">Join with us</p>
+            <Link  className="text-blue-700" to={""}>Join with us</Link>
               <div className="flex gap-2">
                 <img
-                  src="/about/facebook.png"
+                  src="/about/fb.svg"
                   alt="facebook"
                   className="w-6 h-6 cursor-pointer"
                 />
                 <div className="p-[4px] border rounded-full border-gray-800 cursor-pointer">
-                  <img src="/about/insta.png" alt="instagram" />
+                  <img src="/about/insta.svg" alt="instagram" />
                 </div>
                 <img
-                  src="/about/linkedin.png"
+                  src="/about/linkdin.svg"
                   alt="linkedin"
                   className="w-6 h-6 cursor-pointer"
                 />
@@ -129,28 +130,28 @@ const EnrollCourse = () => {
           <div className="col-span-1 flex flex-col gap-9 justify-center ml-4 mt-4 md:mt-0">
             {" "}
             {/* Add mt-4 for margin above the text */}
-            <h2 style={{ fontFamily: 'Conthrax-SB' }} className="text-2xl md:text-4xl flex items-end gap-2">
+            <h2  className="text-2xl md:text-4xl flex items-end gap-2">
               <span className="">Enroll any course</span>
             </h2>
             <div className="text-2xl md:text-4xl flex items-end gap-2">
-              <p style={{ fontFamily: 'Conthrax-SB' }} className="leading-8 md:leading-10">apply Coupon</p>
+              <p  className="leading-8 md:leading-10">apply Coupon</p>
             </div>
             <div className="text-2xl md:text-4xl flex items-end gap-2">
-              <p style={{ fontFamily: 'Conthrax-SB' }} className="leading-8 md:leading-10">discount code.</p>
+              <p  className="leading-8 md:leading-10">discount code.</p>
             </div>
             <div className="flex items-center gap-4">
-              <p style={{ fontFamily: 'Conthrax-SB' }} className="text-blue-700">Join with us</p>
+              <Link  className="text-blue-700" to={""}>Join with us</Link>
               <div className="flex gap-2">
                 <img
-                  src="/about/facebook.png"
+                  src="/about/fb.svg"
                   alt="facebook"
                   className="w-6 h-6 cursor-pointer"
                 />
                 <div className="p-[4px] border rounded-full border-gray-800 cursor-pointer">
-                  <img src="/about/insta.png" alt="instagram" />
+                  <img src="/about/insta.svg" alt="instagram" />
                 </div>
                 <img
-                  src="/about/linkedin.png"
+                  src="/about/linkdin.svg"
                   alt="linkedin"
                   className="w-6 h-6 cursor-pointer"
                 />

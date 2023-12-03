@@ -1,4 +1,6 @@
 import React from "react";
+import "./blog.css"
+import { Link } from "react-router-dom";
 
 export default function Education() {
   return (
@@ -15,9 +17,9 @@ export default function Education() {
           <div key={i} className="col-span-1 flex flex-col bg-white pb-10">
             <div className="relative">
               <img src="/blog/education.png" alt="" className="w-full h-full" />
-              <div className="absolute right-16 -bottom-6 p-5 rounded-full bg-red-500">
-                <img src="/blog/plus.png" alt="" className="h-6 w-6" />
-              </div>
+              <Link className="bgacl-color absolute right-16 -bottom-6 p-5 rounded-full bg-red-600" to={""}>
+                <img src="/blog/plus-red.svg" alt="" className="h-6 w-6" />
+              </Link>
             </div>
             <div className="py-8 px-10 flex flex-col gap-6">
               <p className="text-xs">Admission</p>

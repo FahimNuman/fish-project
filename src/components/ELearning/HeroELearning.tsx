@@ -35,18 +35,13 @@ const HeroELearning = () => {
             className="hero-slide !hidden md:!block md:max-w-5xl xl:max-w-none"
           >
             <SwiperSlide>
-              <img className="h-auto" src="/elearning/hero.png" alt="hero" />
+              <img className="h-auto" src="/elearning/" alt="hero" />
             </SwiperSlide>
-            <SwiperSlide>
-              <img className="h-auto" src="/elearning/hero.png" alt="hero" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img className="h-auto" src="/elearning/hero.png" alt="hero" />
-            </SwiperSlide>
+            
           </Swiper>
         ) : (
           // Render hero image for non-mobile devices
-          <img className="h-auto" src="/elearning/hero.svg" alt="hero" />
+          <img className="h-auto" src="/elearning/hero.png" alt="hero" />
         )}
         <div className="flex w-full h-full absolute left-0 top-0 mt-20">
           <div className="w-inner mx-auto h-full flex justify-center flex-col pl-3">
@@ -67,7 +62,8 @@ const HeroELearning = () => {
             <p className="text-lg md:text-5xl max-w-[491.12px] font-semibold">
               it is right now big thing.
             </p>
-            <div className="relative max-w-[410px] mt-16">
+            <span><img src={process.env.PUBLIC_URL + "/teligram/telegram.png"} alt=""></img></span>
+            {/* <div className="relative max-w-[410px] mt-16">
               <input
                 type="text"
                 placeholder="Search Your Need"
@@ -89,16 +85,8 @@ const HeroELearning = () => {
                   />
                 </svg>
               </span>
-            </div>
-            <div className="flex gap-4 mt-24">
-              <div className="h-[2px] my-auto w-[71px] bg-primary"></div>
-              <Link
-                className="text-black hover:text-blue-500"
-                to={""}
-              >
-                Join us our community
-              </Link>
-            </div>
+            </div> */}
+           
           </div>
         </div>
       </div>
