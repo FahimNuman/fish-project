@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Cards() {
   return (
-    <div className="md:max-w-5xl xl:max-w-3xl mx-auto mt-5 mb-10 px-4 ">
+    <div className="md:max-w-5xl mx-auto mt-5 mb-10 px-4 py-10">
       <div className="flex gap-14 flex-col lg:flex-row justify-center items-center">
         <div className="flex flex-col justify-between gap-5 w-[230px] h-[450px]">
           <img
