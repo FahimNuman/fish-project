@@ -25,7 +25,7 @@ export default function Request() {
           <div className="grid grid-cols-1 md:grid-cols-2 items-center">
             {" "}
             {/* Added 'items-center' class here */}
-            <div className="flex flex-col gap-y-6 md:gap-y-16 md:justify-middle justify-center py-6 max-w-[480px] md:pl-32">
+            <div className="flex flex-col gap-y-6 md:gap-y-16 md:justify-middle justify-center py-6 max-w-[480px] md:pl-20 xl:pl-32">
               <p>Are You Want Contribute?</p>
               <h2 className="text-2xl md:text-5xl font-bold leading-[2rem] text-center md:text-left md:!leading-[4rem]">
                 Share your Resouce for everyozne.It’s helpful.
