@@ -59,7 +59,7 @@
 //           <div className="w-inner mx-auto h-full flex justify-center flex-col pl-3">
 //             <h2 className="text-xl md:text-3xl text-black relative inline-block">
 //               Anything You Like Is Free
-             
+
 //             </h2>
 //             <h1 className="md:text-[64px] text-[30px] font-semibold">
 //               Exciting
@@ -71,16 +71,14 @@
 //             <div className="relative max-w-[410px] mt-16">
 //             <span><img src={process.env.PUBLIC_URL + "/teligram/telegram.png"} alt=""></img></span>
 
-              
-             
 //             </div>
-            
+
 //           </div>
 //         </div>
 //         {/* ... */}
 //       </div>
 //     </div>
-     
+
 //   );
 // }
 
@@ -146,30 +144,24 @@ export default function Hero() {
             <div className="relative max-w-[410px] mt-16">
               <input
                 type="text"
-                placeholder="Search your need"
-                className="rounded-full shadow-xl py-3 md:py-5 pl-6 md:pl-12 pr-16 w-full -z-10"
+                placeholder="Join Our Telegram Group"
+                className="rounded-full shadow-xl py-3 md:py-5 pl-6 md:pl-12 pr-16 w-full -z-10 placeholder:text-black"
               />
-              <button className="absolute inset-y-0 right-0 flex items-center bg-primary text-white m-1 px-3 rounded-full cursor-pointer z-10">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-5 md:w-8 h-5 md:h-8"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
-                  />
-                </svg>
+              <button className="absolute inset-y-0 right-0 flex items-center text-white m-1 px-2 rounded-full cursor-pointer z-10">
+                <img
+                  src={process.env.PUBLIC_URL + "/teligram/telegram.png"}
+                  alt=""
+                ></img>
               </button>
             </div>
-            <div className="flex gap-4 mt-24">
-             
-              <span><img src={process.env.PUBLIC_URL + "/teligram/telegram.png"} alt=""></img></span>
-            </div>
+            {/* <div className="flex gap-4 mt-24">
+              <span>
+                <img
+                  src={process.env.PUBLIC_URL + "/teligram/telegram.png"}
+                  alt=""
+                ></img>
+              </span>
+            </div> */}
           </div>
         </div>
       </div>

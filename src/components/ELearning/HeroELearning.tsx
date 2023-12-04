@@ -37,7 +37,6 @@ const HeroELearning = () => {
             <SwiperSlide>
               <img className="h-auto" src="/elearning/" alt="hero" />
             </SwiperSlide>
-            
           </Swiper>
         ) : (
           // Render hero image for non-mobile devices
@@ -48,7 +47,7 @@ const HeroELearning = () => {
             <h2 className="text-xl md:text-5xl text-black relative inline-block font-semibold">
               Online learning is
               <img
-                src="/hat-color.png" 
+                src="/hat-color.png"
                 alt="hat"
                 className="absolute -top-4 md:-top-5 left-[80%] md:left-[30%] h-8 w-8 font-semibold"
               ></img>
@@ -62,7 +61,20 @@ const HeroELearning = () => {
             <p className="text-lg md:text-5xl max-w-[491.12px] font-semibold">
               it is right now big thing.
             </p>
-            <span><img src={process.env.PUBLIC_URL + "/teligram/telegram.png"} alt=""></img></span>
+            <div className="relative max-w-[410px] mt-16">
+              <input
+                type="text"
+                disabled
+                placeholder="Join Our Telegram Group"
+                className="rounded-full shadow-xl py-3 md:py-5 pl-6 md:pl-12 pr-16 w-full -z-10 disabled:bg-white disabled:placeholder:text-black"
+              />
+              <button className="absolute inset-y-0 right-0 flex items-center text-white m-1 px-2 rounded-full cursor-pointer z-10">
+                <img
+                  src={process.env.PUBLIC_URL + "/teligram/telegram.png"}
+                  alt=""
+                ></img>
+              </button>
+            </div>
             {/* <div className="relative max-w-[410px] mt-16">
               <input
                 type="text"
@@ -86,7 +98,6 @@ const HeroELearning = () => {
                 </svg>
               </span>
             </div> */}
-           
           </div>
         </div>
       </div>

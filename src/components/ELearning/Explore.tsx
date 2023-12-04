@@ -126,14 +126,12 @@ const Explore = () => {
             }}
           >
             <div className="w-full border-b-2 border-gray-400">
-              
-              
               <div className="max-w-inner mx-auto flex justify-between w-full pb-8 pt-[30px] md:pt-[58px]">
                 {/* search */}
                 <div className="max-w-[212px] select-class hidden md:block">
                   <Select
                     label="⧎ Filter"
-                    className=" border border-indigo-600 px-3 py-1 font-semibold rounded-md bg-white text-black focus:outline-none focus:ring-0 focus:ring-offset-0 appearance-none"
+                    className=" border-none px-3 py-1 font-semibold !rounded-3xl bg-white text-black focus:outline-none focus:ring-0 focus:ring-offset-0 appearance-none"
                     labelProps={{
                       className: "text-black",
                     }}
