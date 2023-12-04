@@ -151,7 +151,7 @@ export default function Header() {
             </div>
           </div>
           <div className="flex items-center gap-4">
-            {/* <Button
+            <Button
               variant={isBlog ? "outlined" : "gradient"}
               className={`hidden lg:inline-block rounded-full px-8 py-3 ${
                 isBlog && "border border-primary"
@@ -166,7 +166,7 @@ export default function Header() {
                   Explore
                 </p>
               )}
-            </Button> */}
+            </Button>
             <IconButton
               variant="text"
               className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"

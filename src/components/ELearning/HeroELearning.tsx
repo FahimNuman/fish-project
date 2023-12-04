@@ -40,7 +40,7 @@ const HeroELearning = () => {
           </Swiper>
         ) : (
           // Render hero image for non-mobile devices
-          <img className="h-auto" src="/elearning/hero.png" alt="hero" />
+          <img className="h-auto mt-10" src="/elearning/Group52357.png" alt="hero" />
         )}
         <div className="flex w-full h-full absolute left-0 top-0 mt-20">
           <div className="w-inner mx-auto h-full flex justify-center flex-col pl-3">

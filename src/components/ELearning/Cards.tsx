@@ -2,13 +2,13 @@ import React from "react";
 
 export default function Cards() {
   return (
-    <div className="xl:max-w-layout md:max-w-5xl mx-auto mt-5 mb-10 px-4 ">
+    <div className="xl:max-w-layout md:max-w-4xl mx-auto mt-5 mb-10 px-4 ">
       <div className="flex flex-col lg:flex-row justify-between items-center">
-        <div className="flex flex-col justify-between gap-3 w-[300px] h-[500px]">
+        <div className="flex flex-col justify-between gap-7 w-[290px] h-[450px]">
           <img
             src="/elearning/card1.png"
             alt="card"
-            className="min-h-[300px] max-h-[350px] "
+            className="min-h-[225px] max-h-[300px] "
           />
           <div className="flex flex-col gap-4">
             <p className="text-2xl font-semibold leading-9 ">
@@ -21,11 +21,11 @@ export default function Cards() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col justify-between gap-3 w-[300px] h-[500px]">
+        <div className="flex flex-col justify-between gap-7 w-[290px] h-[450px]">
           <img
             src="/elearning/card2.png"
             alt="card"
-            className="min-h-[300px] max-h-[350px] "
+            className="min-h-[225px] max-h-[300px] "
           />
           <div className="flex flex-col gap-4">
             <p className="text-2xl font-semibold leading-9 ">
@@ -38,11 +38,11 @@ export default function Cards() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col justify-between gap-3 w-[300px] h-[500px]">
+        <div className="flex flex-col justify-between gap-7 w-[290px] h-[450px]">
           <img
             src="/elearning/card3.png"
             alt="card"
-            className="min-h-[300px] max-h-[350px] "
+            className="min-h-[225px] max-h-[300px] "
           />
           <div className="flex flex-col gap-4">
             <p className="text-2xl font-semibold leading-9">
